@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>影片搜索与筛选-欧美高清剧场</title>
+  <meta name="description" content="欧美高清剧场搜索页，支持按片名、地区、年份、类型、标签筛选高清影视内容。">
+  <meta name="keywords" content="欧美,视频,免费观看,最新电影,热播视频,高清播放,正版,搜索,筛选">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="欧美高清剧场">
+      <span class="brand-mark">欧</span>
+      <span class="brand-text">
+        <strong>欧美高清剧场</strong>
+        <em>高清正版资源每日更新</em>
+      </span>
+    </a>
+    <nav class="desktop-nav">
+      <a class="" href="index.html">首页</a>
+<a class="" href="categories.html">分类</a>
+<a class="" href="ranking.html">排行榜</a>
+<a class="is-active" href="search.html">搜索</a>
+    </nav>
+    <form class="header-search site-search-form" action="search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片、地区、类型" aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-toggle" type="button" aria-label="打开导航" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <div class="mobile-nav">
+    <nav><a class="" href="index.html">首页</a>
+<a class="" href="categories.html">分类</a>
+<a class="" href="ranking.html">排行榜</a>
+<a class="is-active" href="search.html">搜索</a></nav>
+    <div class="mobile-cats"><a href="categories/euro-hot.html">欧美热播</a><a href="categories/new-cinema.html">最新电影</a><a href="categories/hot-series.html">热门剧集</a><a href="categories/action-crime.html">动作犯罪</a></div>
+    <form class="mobile-search site-search-form" action="search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+  </div>
+</header>
+<main>
+  <section class="sub-hero search-hero">
+    <div class="container">
+      <span>Search</span>
+      <h1>影片搜索与筛选</h1>
+      <p>输入片名、地区、年份、类型或标签，快速查找高清影视内容。</p>
+      <form class="search-page-form" id="search-page-form" action="search.html" method="get">
+        <input id="search-page-input" type="search" name="q" placeholder="搜索影片、标签、地区、年份">
+        <button type="submit">搜索</button>
+      </form>
+    </div>
+  </section>
+  <section class="container toolbar-section search-toolbar">
+    <label>
+      <span>频道</span>
+      <select id="category-filter">
+        <option value="">全部频道</option>
+        <option value="欧美热播">欧美热播</option><option value="最新电影">最新电影</option><option value="热门剧集">热门剧集</option><option value="动作犯罪">动作犯罪</option><option value="悬疑惊悚">悬疑惊悚</option><option value="爱情剧情">爱情剧情</option><option value="奇幻科幻">奇幻科幻</option><option value="喜剧合家欢">喜剧合家欢</option><option value="亚洲精选">亚洲精选</option><option value="经典片库">经典片库</option><option value="年度精选">年度精选</option><option value="编辑推荐">编辑推荐</option>
+      </select>
+    </label>
+    <label>
+      <span>类型</span>
+      <select id="type-filter">
+        <option value="">全部类型</option>
+        <option value="电影">电影</option>
+        <option value="电视剧">电视剧</option>
+        <option value="网络电影">网络电影</option>
+        <option value="网络动画">网络动画</option>
+      </select>
+    </label>
+    <label>
+      <span>年份</span>
+      <input id="year-filter" type="search" placeholder="例如 2026">
+    </label>
+  </section>
+  <section class="container section-block">
+    <div class="section-head">
+      <div>
+        <span>Result</span>
+        <h2>搜索结果</h2>
+      </div>
+    </div>
+    <div class="movie-grid five-cols" id="search-results"></div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="footer-brand" href="index.html">欧美高清剧场</a>
+      <p>专注于欧美地区影视作品的播放服务，提供高清正版资源，涵盖最新电影与热门剧集，满足不同用户需求。</p>
+    </div>
+    <div>
+      <h3>频道导航</h3>
+      <a href="index.html">首页</a>
+      <a href="categories.html">分类总览</a>
+      <a href="ranking.html">排行榜</a>
+      <a href="search.html">搜索筛选</a>
+    </div>
+    <div>
+      <h3>热门分类</h3>
+      <a href="categories/euro-hot.html">欧美热播</a><a href="categories/new-cinema.html">最新电影</a><a href="categories/hot-series.html">热门剧集</a><a href="categories/action-crime.html">动作犯罪</a><a href="categories/suspense-thriller.html">悬疑惊悚</a><a href="categories/romance-drama.html">爱情剧情</a>
+    </div>
+    <div>
+      <h3>服务</h3>
+      <a href="about.html">关于我们</a>
+      <a href="support.html">服务支持</a>
+      <a href="copyright.html">版权声明</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 欧美高清剧场. All Rights Reserved.</div>
+</footer>
+<script src="assets/site.js"></script>
+<script src="assets/search-index.js"></script>
+<script src="assets/search.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

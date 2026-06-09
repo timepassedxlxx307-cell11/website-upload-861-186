@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>影片搜索-欧美影视剧高清频道</title>
+  <meta name="description" content="搜索欧美电影、热门剧集、高清播放资源与最新视频内容。">
+  <meta name="keywords" content="欧美,视频,免费观看,最新电影,热播视频,高清播放,正版,搜索,筛选">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="./index.html" aria-label="欧美影视剧高清频道">
+      <span class="brand-mark">▶</span>
+      <span class="brand-text">
+        <strong>欧美影视剧高清频道</strong>
+        <em>高清正版每日更新</em>
+      </span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link" href="./index.html">首页</a>
+      <a class="nav-link" href="./categories.html">分类</a>
+      <a class="nav-link" href="./category-europe-america.html">欧美精选</a>
+        <a class="nav-link" href="./category-new-release.html">新片热映</a>
+        <a class="nav-link" href="./category-drama-series.html">热播剧集</a>
+        <a class="nav-link" href="./category-movie-channel.html">电影频道</a>
+      <a class="nav-link" href="./ranking.html">排行榜</a>
+    </nav>
+    <form class="header-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索片名、地区、类型" autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="nav-toggle" type="button" aria-label="展开导航" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <nav class="mobile-nav" aria-label="移动导航">
+    <a class="nav-link" href="./index.html">首页</a>
+      <a class="nav-link" href="./categories.html">分类</a>
+      <a class="nav-link" href="./ranking.html">排行榜</a>
+      <a class="nav-link active" href="./search.html">搜索</a>
+      <a class="nav-link" href="./category-europe-america.html">欧美精选</a>
+      <a class="nav-link" href="./category-new-release.html">新片热映</a>
+      <a class="nav-link" href="./category-drama-series.html">热播剧集</a>
+      <a class="nav-link" href="./category-movie-channel.html">电影频道</a>
+      <a class="nav-link" href="./category-action-crime.html">动作犯罪</a>
+      <a class="nav-link" href="./category-suspense-thriller.html">悬疑惊悚</a>
+  </nav>
+</header>
+<main>
+  <section class="sub-hero search-hero">
+    <div class="container">
+      <p>Search</p>
+      <h1>影片搜索</h1>
+      <span>输入片名、地区、类型、年份或标签，快速查找想看的内容。</span>
+    </div>
+  </section>
+  <section class="container section-block">
+    <form class="search-page-form" action="./search.html" method="get">
+      <input id="search-page-input" type="search" name="q" placeholder="搜索片名、地区、类型、年份或标签" autocomplete="off">
+      <button class="btn btn-primary" type="submit">搜索</button>
+    </form>
+    <div class="section-head search-result-head">
+      <div>
+        <h2>搜索结果</h2>
+        <p id="search-hint">热门内容推荐</p>
+      </div>
+    </div>
+    <div class="movie-grid" id="search-results">
+      <article class="movie-card filter-item" data-title="西部警官" data-year="2024" data-region="美国" data-type="电影" data-genre="西部、犯罪" data-tags="牛仔,缉毒,复仇,荒原">
+  <a class="poster" href="./movie-1.html" aria-label="西部警官">
+    <img src="./1.jpg" alt="西部警官" loading="lazy">
+    <span class="poster-badge">电影</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="card-meta"><a href="./category-drama-series.html">热播剧集</a><span>2024</span></div>
+    <h3><a href="./movie-1.html">西部警官</a></h3>
+    <p>老警长用左轮手枪单挑高科技贩毒集团,荒原就是他的阵地。</p>
+    <div class="tag-row"><span>牛仔</span><span>缉毒</span><span>复仇</span></div>
+  </div>
+</article>
+<article class="movie-card filter-item" data-title="真心英雄" data-year="2026" data-region="中国香港" data-type="电影" data-genre="动作,剧情" data-tags="翻拍经典,缉毒,双雄对决">
+  <a class="poster" href="./movie-2.html" aria-label="真心英雄">
+    <img src="./2.jpg" alt="真心英雄" loading="lazy">
+    <span class="poster-badge">电影</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="card-meta"><a href="./category-suspense-thriller.html">悬疑惊悚</a><span>2026</span></div>
+    <h3><a href="./movie-2.html">真心英雄</a></h3>
+    <p>两位亦敌亦友的警队传奇退休后,因为下一代皆卷入新型毒品案,不得不重出江湖,用命搏回荣誉。</p>
+    <div class="tag-row"><span>翻拍经典</span><span>缉毒</span><span>双雄对决</span></div>
+  </div>
+</article>
+<article class="movie-card filter-item" data-title="最后一次初恋" data-year="2025" data-region="中国大陆" data-type="电影" data-genre="爱情/青春" data-tags="绝症,校园,遗愿清单,催泪,纯爱">
+  <a class="poster" href="./movie-3.html" aria-label="最后一次初恋">
+    <img src="./3.jpg" alt="最后一次初恋" loading="lazy">
+    <span class="poster-badge">电影</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="card-meta"><a href="./category-europe-america.html">欧美精选</a><span>2025</span></div>
+    <h3><a href="./movie-3.html">最后一次初恋</a></h3>
+    <p>高二女生确诊脑癌,她的遗愿清单里第一条是“谈一场初恋”,于是她找了全校最讨厌她的男生。</p>
+    <div class="tag-row"><span>绝症</span><span>校园</span><span>遗愿清单</span></div>
+  </div>
+</article>
+<article class="movie-card filter-item" data-title="恋爱播放列表" data-year="2024" data-region="韩国" data-type="剧集" data-genre="爱情/音乐/青春" data-tags="音乐播放器,暗恋,双向奔赴,怀旧青春,原声带">
+  <a class="poster" href="./movie-4.html" aria-label="恋爱播放列表">
+    <img src="./4.jpg" alt="恋爱播放列表" loading="lazy">
+    <span class="poster-badge">剧集</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="card-meta"><a href="./category-youth-campus.html">青春校园</a><span>2024</span></div>
+    <h3><a href="./movie-4.html">恋爱播放列表</a></h3>
+    <p>女主意外获得一部旧MP3,里面按顺序播放的每首歌,都精准预言了她和暗恋对象的下一秒。</p>
+    <div class="tag-row"><span>音乐播放器</span><span>暗恋</span><span>双向奔赴</span></div>
+  </div>
+</article>
+<article class="movie-card filter-item" data-title="卡通一箩筐第一季" data-year="2025" data-region="美国" data-type="剧集" data-genre="动画,喜剧,儿童" data-tags="无厘头,动物朋友,单元剧,脑洞大开">
+  <a class="poster" href="./movie-5.html" aria-label="卡通一箩筐第一季">
+    <img src="./5.jpg" alt="卡通一箩筐第一季" loading="lazy">
+    <span class="poster-badge">剧集</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="card-meta"><a href="./category-action-crime.html">动作犯罪</a><span>2025</span></div>
+    <h3><a href="./movie-5.html">卡通一箩筐第一季</a></h3>
+    <p>一群住在超市货架上的卡通动物,每晚关门后开始疯狂冒险。</p>
+    <div class="tag-row"><span>无厘头</span><span>动物朋友</span><span>单元剧</span></div>
+  </div>
+</article>
+<article class="movie-card filter-item" data-title="黑暗仪式" data-year="2024" data-region="英国" data-type="电影" data-genre="恐怖/悬疑" data-tags="民俗恐怖,邪教,驱魔">
+  <a class="poster" href="./movie-6.html" aria-label="黑暗仪式">
+    <img src="./6.jpg" alt="黑暗仪式" loading="lazy">
+    <span class="poster-badge">电影</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="card-meta"><a href="./category-action-crime.html">动作犯罪</a><span>2024</span></div>
+    <h3><a href="./movie-6.html">黑暗仪式</a></h3>
+    <p>一位无神论的人类学家,为了研究偏远岛屿的民俗,被迫参与了一场献祭仪式,却唤醒了真正的远古邪神。</p>
+    <div class="tag-row"><span>民俗恐怖</span><span>邪教</span><span>驱魔</span></div>
+  </div>
+</article>
+<article class="movie-card filter-item" data-title="现代驱魔纪实" data-year="2021" data-region="美国" data-type="电视剧" data-genre="恐怖" data-tags="伪纪录,驱魔,科学vs宗教,单元剧,心理">
+  <a class="poster" href="./movie-7.html" aria-label="现代驱魔纪实">
+    <img src="./7.jpg" alt="现代驱魔纪实" loading="lazy">
+    <span class="poster-badge">电视剧</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="card-meta"><a href="./category-comedy-animation.html">喜剧动画</a><span>2021</span></div>
+    <h3><a href="./movie-7.html">现代驱魔纪实</a></h3>
+    <p>梵蒂冈认证的驱魔师随身携带GoPro,记录下37个真实驱魔案例——直到第38个案例中,恶魔说出了他的真名。</p>
+    <div class="tag-row"><span>伪纪录</span><span>驱魔</span><span>科学vs宗教</span></div>
+  </div>
+</article>
+<article class="movie-card filter-item" data-title="梦境" data-year="2025" data-region="美国" data-type="剧集" data-genre="科幻/悬疑" data-tags="科技伦理,潜意识,犯罪">
+  <a class="poster" href="./movie-8.html" aria-label="梦境">
+    <img src="./8.jpg" alt="梦境" loading="lazy">
+    <span class="poster-badge">剧集</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="card-meta"><a href="./category-history-war.html">历史战争</a><span>2025</span></div>
+    <h3><a href="./movie-8.html">梦境</a></h3>
+    <p>一款能录下梦境的设备上市后,人们发现自己的梦正在被他人操控。</p>
+    <div class="tag-row"><span>科技伦理</span><span>潜意识</span><span>犯罪</span></div>
+  </div>
+</article>
+<article class="movie-card filter-item" data-title="影城春光" data-year="2025" data-region="中国香港" data-type="电影" data-genre="剧情/情色" data-tags="片场,戏中戏,欲望,禁忌,八十年代">
+  <a class="poster" href="./movie-9.html" aria-label="影城春光">
+    <img src="./9.jpg" alt="影城春光" loading="lazy">
+    <span class="poster-badge">电影</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="card-meta"><a href="./category-drama-series.html">热播剧集</a><span>2025</span></div>
+    <h3><a href="./movie-9.html">影城春光</a></h3>
+    <p>1980年代香港老片场,一个龙虎武师与过气艳星在拍情色片过程中,入戏太深,模糊了爱与欲的边界。</p>
+    <div class="tag-row"><span>片场</span><span>戏中戏</span><span>欲望</span></div>
+  </div>
+</article>
+<article class="movie-card filter-item" data-title="大戏法" data-year="2012" data-region="中国大陆" data-type="剧集" data-genre="剧情,年代,悬疑" data-tags="民国魔术,复仇,戏法对决,身世之谜">
+  <a class="poster" href="./movie-10.html" aria-label="大戏法">
+    <img src="./10.jpg" alt="大戏法" loading="lazy">
+    <span class="poster-badge">剧集</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="card-meta"><a href="./category-history-war.html">历史战争</a><span>2012</span></div>
+    <h3><a href="./movie-10.html">大戏法</a></h3>
+    <p>民国魔术师为报灭门之仇,苦练十年“魔鬼八法”,却发现自己仇人的养子竟是当年走散的亲弟弟。</p>
+    <div class="tag-row"><span>民国魔术</span><span>复仇</span><span>戏法对决</span></div>
+  </div>
+</article>
+<article class="movie-card filter-item" data-title="月上心辰" data-year="2025" data-region="中国" data-type="剧集" data-genre="爱情,古装,奇幻" data-tags="甜宠,月神,契约婚姻,先婚后爱">
+  <a class="poster" href="./movie-11.html" aria-label="月上心辰">
+    <img src="./11.jpg" alt="月上心辰" loading="lazy">
+    <span class="poster-badge">剧集</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="card-meta"><a href="./category-comedy-animation.html">喜剧动画</a><span>2025</span></div>
+    <h3><a href="./movie-11.html">月上心辰</a></h3>
+    <p>古灵精怪的月老实习生错把天帝的姻缘线系在自己和冷酷月神身上,被迫开始一段啼笑皆非的“神仙同居”生活。</p>
+    <div class="tag-row"><span>甜宠</span><span>月神</span><span>契约婚姻</span></div>
+  </div>
+</article>
+<article class="movie-card filter-item" data-title="青春简单爱" data-year="2023" data-region="中国台湾" data-type="电影" data-genre="爱情/青春/校园" data-tags="纯爱,夏日,单车,暗恋">
+  <a class="poster" href="./movie-12.html" aria-label="青春简单爱">
+    <img src="./12.jpg" alt="青春简单爱" loading="lazy">
+    <span class="poster-badge">电影</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="card-meta"><a href="./category-new-release.html">新片热映</a><span>2023</span></div>
+    <h3><a href="./movie-12.html">青春简单爱</a></h3>
+    <p>复读班倒数第一的学渣,为了靠近女神,竟然帮她喜欢的学霸整理错题集。</p>
+    <div class="tag-row"><span>纯爱</span><span>夏日</span><span>单车</span></div>
+  </div>
+</article>
+<article class="movie-card filter-item" data-title="寄宿家庭的遗产" data-year="2016" data-region="日本" data-type="电影" data-genre="悬疑" data-tags="家族秘密,遗产争夺,暗黑童话,反转结局">
+  <a class="poster" href="./movie-13.html" aria-label="寄宿家庭的遗产">
+    <img src="./13.jpg" alt="寄宿家庭的遗产" loading="lazy">
+    <span class="poster-badge">电影</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="card-meta"><a href="./category-suspense-thriller.html">悬疑惊悚</a><span>2016</span></div>
+    <h3><a href="./movie-13.html">寄宿家庭的遗产</a></h3>
+    <p>他假装成普通留学生住进豪宅,却发现上一任寄宿生“意外死亡”的真相。</p>
+    <div class="tag-row"><span>家族秘密</span><span>遗产争夺</span><span>暗黑童话</span></div>
+  </div>
+</article>
+<article class="movie-card filter-item" data-title="涂色" data-year="2023" data-region="中国大陆" data-type="电影" data-genre="剧情/家庭" data-tags="留守儿童,老人,色彩,治愈,告别">
+  <a class="poster" href="./movie-14.html" aria-label="涂色">
+    <img src="./14.jpg" alt="涂色" loading="lazy">
+    <span class="poster-badge">电影</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="card-meta"><a href="./category-drama-series.html">热播剧集</a><span>2023</span></div>
+    <h3><a href="./movie-14.html">涂色</a></h3>
+    <p>一个失明的老人让孙女为自己描述世界的颜色,孙女却在撒谎和陪伴中学会了告别。</p>
+    <div class="tag-row"><span>留守儿童</span><span>老人</span><span>色彩</span></div>
+  </div>
+</article>
+<article class="movie-card filter-item" data-title="幻影追凶" data-year="2024" data-region="中国香港" data-type="电影" data-genre="警匪动作" data-tags="卧底,双重人格,枪战,兄弟情">
+  <a class="poster" href="./movie-15.html" aria-label="幻影追凶">
+    <img src="./15.jpg" alt="幻影追凶" loading="lazy">
+    <span class="poster-badge">电影</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="card-meta"><a href="./category-new-release.html">新片热映</a><span>2024</span></div>
+    <h3><a href="./movie-15.html">幻影追凶</a></h3>
+    <p>卧底警察以为自己终于抓住了黑帮老大,结果对方是他分裂出的第二人格。</p>
+    <div class="tag-row"><span>卧底</span><span>双重人格</span><span>枪战</span></div>
+  </div>
+</article>
+<article class="movie-card filter-item" data-title="旗正飘飘" data-year="1987" data-region="中国台湾" data-type="电影" data-genre="战争/历史/爱情" data-tags="抗日战争,军旅爱情,悲壮,爱国情怀">
+  <a class="poster" href="./movie-16.html" aria-label="旗正飘飘">
+    <img src="./16.jpg" alt="旗正飘飘" loading="lazy">
+    <span class="poster-badge">电影</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="card-meta"><a href="./category-movie-channel.html">电影频道</a><span>1987</span></div>
+    <h3><a href="./movie-16.html">旗正飘飘</a></h3>
+    <p>抗战末期,一支孤军深入敌后的特遣队,为了护送一面军旗穿越火线,全员牺牲。</p>
+    <div class="tag-row"><span>抗日战争</span><span>军旅爱情</span><span>悲壮</span></div>
+  </div>
+</article>
+<article class="movie-card filter-item" data-title="陈毅在茅山" data-year="2024" data-region="中国大陆" data-type="电影" data-genre="历史、战争、传记" data-tags="抗日、战略、山林战、将领、军民情深">
+  <a class="poster" href="./movie-17.html" aria-label="陈毅在茅山">
+    <img src="./17.jpg" alt="陈毅在茅山" loading="lazy">
+    <span class="poster-badge">电影</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="card-meta"><a href="./category-youth-campus.html">青春校园</a><span>2024</span></div>
+    <h3><a href="./movie-17.html">陈毅在茅山</a></h3>
+    <p>茅山沦陷后,陈毅用一盘围棋和一支山歌,在日军眼皮底下布下天罗地网。</p>
+    <div class="tag-row"><span>抗日</span><span>战略</span><span>山林战</span></div>
+  </div>
+</article>
+<article class="movie-card filter-item" data-title="人类之巅" data-year="2019" data-region="阿根廷" data-type="电影" data-genre="剧情奇幻" data-tags="存在主义,意识流,身体恐怖,实验">
+  <a class="poster" href="./movie-18.html" aria-label="人类之巅">
+    <img src="./18.jpg" alt="人类之巅" loading="lazy">
+    <span class="poster-badge">电影</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="card-meta"><a href="./category-movie-channel.html">电影频道</a><span>2019</span></div>
+    <h3><a href="./movie-18.html">人类之巅</a></h3>
+    <p>当一个女人发现自己的骨骼开始向外生长,试图刺破皮肤去触摸天空,一场关于超越肉身的噩梦开始了。</p>
+    <div class="tag-row"><span>存在主义</span><span>意识流</span><span>身体恐怖</span></div>
+  </div>
+</article>
+<article class="movie-card filter-item" data-title="现代驱魔纪实" data-year="2025" data-region="美国" data-type="电影" data-genre="恐怖/伪纪录片/悬疑" data-tags="伪纪录片,驱魔,网络直播,信仰怀疑,真实事件改编">
+  <a class="poster" href="./movie-19.html" aria-label="现代驱魔纪实">
+    <img src="./19.jpg" alt="现代驱魔纪实" loading="lazy">
+    <span class="poster-badge">电影</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="card-meta"><a href="./category-history-war.html">历史战争</a><span>2025</span></div>
+    <h3><a href="./movie-19.html">现代驱魔纪实</a></h3>
+    <p>一档网红灵探直播闯入废弃精神病院,却意外拍到了真正的附身——而且恶魔认得摄像机。</p>
+    <div class="tag-row"><span>伪纪录片</span><span>驱魔</span><span>网络直播</span></div>
+  </div>
+</article>
+<article class="movie-card filter-item" data-title="飞马俏姑娘" data-year="2021" data-region="美国" data-type="电影" data-genre="家庭/运动" data-tags="马术,少女成长,励志,动物,乡村">
+  <a class="poster" href="./movie-20.html" aria-label="飞马俏姑娘">
+    <img src="./20.jpg" alt="飞马俏姑娘" loading="lazy">
+    <span class="poster-badge">电影</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="card-meta"><a href="./category-movie-channel.html">电影频道</a><span>2021</span></div>
+    <h3><a href="./movie-20.html">飞马俏姑娘</a></h3>
+    <p>城市叛逆少女被送到乡下马场,却和一匹所有人都不敢骑的疯马成了最佳搭档。</p>
+    <div class="tag-row"><span>马术</span><span>少女成长</span><span>励志</span></div>
+  </div>
+</article>
+<article class="movie-card filter-item" data-title="婴魂" data-year="2025" data-region="泰国" data-type="电影" data-genre="恐怖,惊悚,灵异" data-tags="古曼童,婴灵,母爱与占有,因果报应">
+  <a class="poster" href="./movie-21.html" aria-label="婴魂">
+    <img src="./21.jpg" alt="婴魂" loading="lazy">
+    <span class="poster-badge">电影</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="card-meta"><a href="./category-movie-channel.html">电影频道</a><span>2025</span></div>
+    <h3><a href="./movie-21.html">婴魂</a></h3>
+    <p>一对无法生育的夫妇领养了一个“古曼童”灵童,却发现家中的真实孩子开始一个接一个地消失。</p>
+    <div class="tag-row"><span>古曼童</span><span>婴灵</span><span>母爱与占有</span></div>
+  </div>
+</article>
+<article class="movie-card filter-item" data-title="怒放的豆芽" data-year="2023" data-region="中国大陆" data-type="电影" data-genre="剧情/儿童/教育" data-tags="乡村,支教,梦想,成长">
+  <a class="poster" href="./movie-22.html" aria-label="怒放的豆芽">
+    <img src="./22.jpg" alt="怒放的豆芽" loading="lazy">
+    <span class="poster-badge">电影</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="card-meta"><a href="./category-romance-drama.html">爱情剧情</a><span>2023</span></div>
+    <h3><a href="./movie-22.html">怒放的豆芽</a></h3>
+    <p>一个农村孩子坚信豆芽能开出花,所有人都笑他傻,直到一位支教老师来了。</p>
+    <div class="tag-row"><span>乡村</span><span>支教</span><span>梦想</span></div>
+  </div>
+</article>
+<article class="movie-card filter-item" data-title="逆仙而上" data-year="2026" data-region="中国大陆" data-type="网络剧" data-genre="奇幻,古装,仙侠" data-tags="修仙,废柴逆袭,宗门,渡劫,燃">
+  <a class="poster" href="./movie-23.html" aria-label="逆仙而上">
+    <img src="./23.jpg" alt="逆仙而上" loading="lazy">
+    <span class="poster-badge">网络剧</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="card-meta"><a href="./category-romance-drama.html">爱情剧情</a><span>2026</span></div>
+    <h3><a href="./movie-23.html">逆仙而上</a></h3>
+    <p>全宗门都说他是无法聚灵的废物,直到天劫主动找上他拜师。</p>
+    <div class="tag-row"><span>修仙</span><span>废柴逆袭</span><span>宗门</span></div>
+  </div>
+</article>
+<article class="movie-card filter-item" data-title="夏伯阳" data-year="2026" data-region="俄罗斯" data-type="电影" data-genre="战争,传记,历史" data-tags="苏联名将,内战,骑兵,史诗,黑白调色">
+  <a class="poster" href="./movie-24.html" aria-label="夏伯阳">
+    <img src="./24.jpg" alt="夏伯阳" loading="lazy">
+    <span class="poster-badge">电影</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="card-meta"><a href="./category-drama-series.html">热播剧集</a><span>2026</span></div>
+    <h3><a href="./movie-24.html">夏伯阳</a></h3>
+    <p>他不是神话,是一个害怕骑马、会尿床、但绝不会后退一步的普通人。</p>
+    <div class="tag-row"><span>苏联名将</span><span>内战</span><span>骑兵</span></div>
+  </div>
+</article>
+
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="footer-brand" href="./index.html">欧美影视剧高清频道</a>
+      <p>专注于欧美地区影视作品的播放服务，提供高清正版资源，涵盖最新电影与热门剧集，满足不同用户需求。</p>
+    </div>
+    <div class="footer-links">
+      <a href="./categories.html">分类频道</a>
+      <a href="./ranking.html">热门榜单</a>
+      <a href="./search.html">影片搜索</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">© 2026 欧美影视剧高清频道. 高清正版每日更新。</div>
+</footer>
+<script src="./assets/site.js"></script>
+<script src="./assets/search-data.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

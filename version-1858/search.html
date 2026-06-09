@@ -1,0 +1,3638 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>搜索影片-热门影视片库</title>
+  <meta name="description" content="搜索热门电影、电视剧、高分影片与精选影视合集。">
+  <meta name="keywords" content="热门影视片库,精选内容,高清影片,在线观看,热门电影,热门电视剧,高分影片,影视合集">
+  <link rel="stylesheet" href="./assets/site.css">
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="./index.html" aria-label="热门影视片库">
+        <span class="brand-mark">映</span>
+        <span class="brand-text">热门影视片库</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="展开导航" data-nav-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" data-site-nav>
+        <a href="./index.html">首页</a>
+        <a href="./movies/page-1.html">全部影片</a>
+        <a href="./categories.html">分类</a>
+        <a href="./top.html">热播榜</a>
+        <a href="./search.html">搜索</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="page-hero search-hero">
+      <div class="container page-hero-inner">
+        <p class="eyebrow">搜索筛选</p>
+        <h1>搜索高清影片</h1>
+        <p>输入片名、年份、地区或题材关键词，快速定位影片详情页。</p>
+        <div class="global-search-box">
+          <input type="search" placeholder="输入片名、年份、地区或标签" data-global-search aria-label="搜索影片">
+        </div>
+      </div>
+    </section>
+    <section class="content-section container">
+      <div class="filter-pills" data-search-pills>
+        <button type="button" class="is-active" data-search-cat="">全部</button>
+        <button type="button" data-search-cat="drama">剧情佳作</button>
+        <button type="button" data-search-cat="comedy">喜剧生活</button>
+        <button type="button" data-search-cat="action">动作冒险</button>
+        <button type="button" data-search-cat="mystery">悬疑犯罪</button>
+        <button type="button" data-search-cat="thriller">恐怖惊悚</button>
+        <button type="button" data-search-cat="romance">爱情情感</button>
+        <button type="button" data-search-cat="scifi">科幻奇幻</button>
+        <button type="button" data-search-cat="family">家庭治愈</button>
+        <button type="button" data-search-cat="animation">动画少儿</button>
+        <button type="button" data-search-cat="history">历史战争</button>
+        <button type="button" data-search-cat="youth">青春校园</button>
+        <button type="button" data-search-cat="music">音乐运动</button>
+        <button type="button" data-search-cat="documentary">纪录人文</button>
+        <button type="button" data-search-cat="other">更多片单</button>
+      </div>
+      <div class="movie-grid" data-search-grid>
+      <article class="movie-card" data-title="天才进化论第二季" data-category="youth" data-year="2023" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-1.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./1.jpg" alt="天才进化论第二季" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">青春校园</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2023</span>
+            <span>剧集</span>
+            <span class="rating">★ 8.8</span>
+          </div>
+          <h3><a href="./movie/movie-1.html">天才进化论第二季</a></h3>
+          <p>一群个性鲜明的学生在全新学期里继续用实验、竞赛和友情完成自我进化。</p>
+          <div class="tag-row"><span>青春校园</span><span>国产</span><span>剧集</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="爱情公寓番外篇：开心原力" data-category="comedy" data-year="2016" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-2.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./2.jpg" alt="爱情公寓番外篇：开心原力" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">喜剧生活</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2016</span>
+            <span>剧集</span>
+            <span class="rating">★ 8.3</span>
+          </div>
+          <h3><a href="./movie/movie-2.html">爱情公寓番外篇：开心原力</a></h3>
+          <p>熟悉的公寓住户被卷入一场关于快乐能量的奇妙事件，笑声中串联起各自的生活选择。</p>
+          <div class="tag-row"><span>喜剧生活</span><span>国产</span><span>剧集</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="最后幸存者" data-category="scifi" data-year="2022" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-3.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./3.jpg" alt="最后幸存者" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">科幻奇幻</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2022</span>
+            <span>电影</span>
+            <span class="rating">★ 7.8</span>
+          </div>
+          <h3><a href="./movie/movie-3.html">最后幸存者</a></h3>
+          <p>文明崩塌后的孤城里，最后一组幸存者必须在资源耗尽前寻找真正的安全区。</p>
+          <div class="tag-row"><span>科幻奇幻</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="我的如意狼君粤语" data-category="romance" data-year="2011" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-4.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./4.jpg" alt="我的如意狼君粤语" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">爱情情感</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2011</span>
+            <span>剧集</span>
+            <span class="rating">★ 7.3</span>
+          </div>
+          <h3><a href="./movie/movie-4.html">我的如意狼君粤语</a></h3>
+          <p>一段错位姻缘牵出豪门恩怨，两个不被看好的年轻人在风波中守住真心。</p>
+          <div class="tag-row"><span>爱情情感</span><span>国产</span><span>剧集</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="抬头见喜" data-category="comedy" data-year="2023" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-5.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./5.jpg" alt="抬头见喜" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">喜剧生活</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2023</span>
+            <span>电影</span>
+            <span class="rating">★ 8.9</span>
+          </div>
+          <h3><a href="./movie/movie-5.html">抬头见喜</a></h3>
+          <p>几个平凡家庭在新年将至时迎来意外转机，用笑声和拥抱化解生活里的难题。</p>
+          <div class="tag-row"><span>喜剧生活</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="豹啸" data-category="action" data-year="2020" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-6.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./6.jpg" alt="豹啸" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">动作冒险</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2020</span>
+            <span>电影</span>
+            <span class="rating">★ 8.4</span>
+          </div>
+          <h3><a href="./movie/movie-6.html">豹啸</a></h3>
+          <p>年轻护林员追踪神秘豹踪时，意外揭开盗猎团伙与山村往事。</p>
+          <div class="tag-row"><span>动作冒险</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="斩神之凡尘神域" data-category="scifi" data-year="2024" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-7.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./7.jpg" alt="斩神之凡尘神域" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">科幻奇幻</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2024</span>
+            <span>动画</span>
+            <span class="rating">★ 7.9</span>
+          </div>
+          <h3><a href="./movie/movie-7.html">斩神之凡尘神域</a></h3>
+          <p>少年在凡尘都市中觉醒神域之力，踏上守护人间秩序的斩神之路。</p>
+          <div class="tag-row"><span>科幻奇幻</span><span>国产</span><span>动画</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="惊心动胆" data-category="mystery" data-year="2004" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-8.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./8.jpg" alt="惊心动胆" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">悬疑犯罪</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2004</span>
+            <span>电影</span>
+            <span class="rating">★ 7.4</span>
+          </div>
+          <h3><a href="./movie/movie-8.html">惊心动胆</a></h3>
+          <p>一场看似普通的意外事故让几位陌生人的秘密被逐层牵出。</p>
+          <div class="tag-row"><span>悬疑犯罪</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="滚石摇滚马戏团" data-category="music" data-year="2019" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-9.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./9.jpg" alt="滚石摇滚马戏团" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">音乐运动</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2019</span>
+            <span>电影</span>
+            <span class="rating">★ 9.0</span>
+          </div>
+          <h3><a href="./movie/movie-9.html">滚石摇滚马戏团</a></h3>
+          <p>摇滚乐队在巡演与后台风暴中完成一场充满时代记忆的舞台狂欢。</p>
+          <div class="tag-row"><span>音乐运动</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="准时死亡" data-category="mystery" data-year="2021" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-10.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./10.jpg" alt="准时死亡" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">悬疑犯罪</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2021</span>
+            <span>电影</span>
+            <span class="rating">★ 8.5</span>
+          </div>
+          <h3><a href="./movie/movie-10.html">准时死亡</a></h3>
+          <p>一名普通人发现死亡时间被精确写入行程表，必须在倒计时中找出操纵者。</p>
+          <div class="tag-row"><span>悬疑犯罪</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="身后事2009" data-category="thriller" data-year="1995" data-region="亚洲">
+        <a class="movie-poster-link" href="./movie/movie-11.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./11.jpg" alt="身后事2009" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">恐怖惊悚</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1995</span>
+            <span>电影</span>
+            <span class="rating">★ 8.0</span>
+          </div>
+          <h3><a href="./movie/movie-11.html">身后事2009</a></h3>
+          <p>《身后事2009》营造紧张氛围，让角色在未知威胁与心理压力中寻找出路。</p>
+          <div class="tag-row"><span>恐怖惊悚</span><span>亚洲</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="饿之必要" data-category="thriller" data-year="2002" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-12.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./12.jpg" alt="饿之必要" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">恐怖惊悚</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2002</span>
+            <span>电影</span>
+            <span class="rating">★ 7.5</span>
+          </div>
+          <h3><a href="./movie/movie-12.html">饿之必要</a></h3>
+          <p>《饿之必要》营造紧张氛围，让角色在未知威胁与心理压力中寻找出路。</p>
+          <div class="tag-row"><span>恐怖惊悚</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="多米诺骨牌" data-category="drama" data-year="2009" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-13.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./13.jpg" alt="多米诺骨牌" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2009</span>
+            <span>电影</span>
+            <span class="rating">★ 9.1</span>
+          </div>
+          <h3><a href="./movie/movie-13.html">多米诺骨牌</a></h3>
+          <p>围绕《多米诺骨牌》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="无罪的罪人" data-category="mystery" data-year="2016" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-14.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./14.jpg" alt="无罪的罪人" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">悬疑犯罪</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2016</span>
+            <span>电影</span>
+            <span class="rating">★ 8.6</span>
+          </div>
+          <h3><a href="./movie/movie-14.html">无罪的罪人</a></h3>
+          <p>《无罪的罪人》从一桩疑点重重的事件切入，让真相在层层线索中逐渐浮出水面。</p>
+          <div class="tag-row"><span>悬疑犯罪</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="30年的人生" data-category="drama" data-year="2023" data-region="亚洲">
+        <a class="movie-poster-link" href="./movie/movie-15.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./15.jpg" alt="30年的人生" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2023</span>
+            <span>电影</span>
+            <span class="rating">★ 8.1</span>
+          </div>
+          <h3><a href="./movie/movie-15.html">30年的人生</a></h3>
+          <p>围绕《30年的人生》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>亚洲</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="快餐车粤语" data-category="comedy" data-year="1994" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-16.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./16.jpg" alt="快餐车粤语" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">喜剧生活</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1994</span>
+            <span>电影</span>
+            <span class="rating">★ 7.6</span>
+          </div>
+          <h3><a href="./movie/movie-16.html">快餐车粤语</a></h3>
+          <p>《快餐车粤语》用轻快节奏串起生活误会与温暖反转，带来轻松又有人情味的观感。</p>
+          <div class="tag-row"><span>喜剧生活</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="风中的忏悔诗" data-category="drama" data-year="2001" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-17.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./17.jpg" alt="风中的忏悔诗" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2001</span>
+            <span>电影</span>
+            <span class="rating">★ 9.2</span>
+          </div>
+          <h3><a href="./movie/movie-17.html">风中的忏悔诗</a></h3>
+          <p>围绕《风中的忏悔诗》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="好久不见啊喵" data-category="drama" data-year="2008" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-18.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./18.jpg" alt="好久不见啊喵" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2008</span>
+            <span>电影</span>
+            <span class="rating">★ 8.7</span>
+          </div>
+          <h3><a href="./movie/movie-18.html">好久不见啊喵</a></h3>
+          <p>围绕《好久不见啊喵》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="憨直少年" data-category="youth" data-year="2015" data-region="亚洲">
+        <a class="movie-poster-link" href="./movie/movie-19.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./19.jpg" alt="憨直少年" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">青春校园</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2015</span>
+            <span>电影</span>
+            <span class="rating">★ 8.2</span>
+          </div>
+          <h3><a href="./movie/movie-19.html">憨直少年</a></h3>
+          <p>《憨直少年》聚焦青春选择和成长阵痛，记录少年人在变化中寻找方向。</p>
+          <div class="tag-row"><span>青春校园</span><span>亚洲</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="萝丝·霍巴特" data-category="documentary" data-year="2022" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-20.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./20.jpg" alt="萝丝·霍巴特" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">纪录人文</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2022</span>
+            <span>电影</span>
+            <span class="rating">★ 7.7</span>
+          </div>
+          <h3><a href="./movie/movie-20.html">萝丝·霍巴特</a></h3>
+          <p>《萝丝·霍巴特》以观察视角梳理真实人物与时代细节，呈现值得回望的故事。</p>
+          <div class="tag-row"><span>纪录人文</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="百万年薪快递员" data-category="drama" data-year="1993" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-21.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./21.jpg" alt="百万年薪快递员" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1993</span>
+            <span>电影</span>
+            <span class="rating">★ 7.2</span>
+          </div>
+          <h3><a href="./movie/movie-21.html">百万年薪快递员</a></h3>
+          <p>围绕《百万年薪快递员》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="踏寻先辈的足迹" data-category="documentary" data-year="2000" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-22.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./22.jpg" alt="踏寻先辈的足迹" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">纪录人文</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2000</span>
+            <span>电影</span>
+            <span class="rating">★ 8.8</span>
+          </div>
+          <h3><a href="./movie/movie-22.html">踏寻先辈的足迹</a></h3>
+          <p>《踏寻先辈的足迹》以观察视角梳理真实人物与时代细节，呈现值得回望的故事。</p>
+          <div class="tag-row"><span>纪录人文</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="四片羽毛" data-category="history" data-year="2007" data-region="亚洲">
+        <a class="movie-poster-link" href="./movie/movie-23.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./23.jpg" alt="四片羽毛" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">历史战争</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2007</span>
+            <span>电影</span>
+            <span class="rating">★ 8.3</span>
+          </div>
+          <h3><a href="./movie/movie-23.html">四片羽毛</a></h3>
+          <p>《四片羽毛》把个人命运放入历史风云，以厚重叙事展现时代的回声。</p>
+          <div class="tag-row"><span>历史战争</span><span>亚洲</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="亡命驾驶" data-category="action" data-year="2014" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-24.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./24.jpg" alt="亡命驾驶" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">动作冒险</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2014</span>
+            <span>电影</span>
+            <span class="rating">★ 7.8</span>
+          </div>
+          <h3><a href="./movie/movie-24.html">亡命驾驶</a></h3>
+          <p>《亡命驾驶》以高燃行动线推进故事，主角在危机中完成勇气与信念的试炼。</p>
+          <div class="tag-row"><span>动作冒险</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="制造伍德斯托克音乐节" data-category="music" data-year="2021" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-25.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./25.jpg" alt="制造伍德斯托克音乐节" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">音乐运动</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2021</span>
+            <span>电影</span>
+            <span class="rating">★ 7.3</span>
+          </div>
+          <h3><a href="./movie/movie-25.html">制造伍德斯托克音乐节</a></h3>
+          <p>《制造伍德斯托克音乐节》以舞台、竞技或音乐为核心，展现热爱带来的热血与坚持。</p>
+          <div class="tag-row"><span>音乐运动</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="返校日" data-category="drama" data-year="1992" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-26.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./26.jpg" alt="返校日" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1992</span>
+            <span>电影</span>
+            <span class="rating">★ 8.9</span>
+          </div>
+          <h3><a href="./movie/movie-26.html">返校日</a></h3>
+          <p>围绕《返校日》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="揭秘骗局" data-category="mystery" data-year="1999" data-region="亚洲">
+        <a class="movie-poster-link" href="./movie/movie-27.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./27.jpg" alt="揭秘骗局" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">悬疑犯罪</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1999</span>
+            <span>电影</span>
+            <span class="rating">★ 8.4</span>
+          </div>
+          <h3><a href="./movie/movie-27.html">揭秘骗局</a></h3>
+          <p>《揭秘骗局》从一桩疑点重重的事件切入，让真相在层层线索中逐渐浮出水面。</p>
+          <div class="tag-row"><span>悬疑犯罪</span><span>亚洲</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="九阴真经粤语" data-category="action" data-year="1993" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-28.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./28.jpg" alt="九阴真经粤语" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">动作冒险</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1993</span>
+            <span>剧集</span>
+            <span class="rating">★ 7.9</span>
+          </div>
+          <h3><a href="./movie/movie-28.html">九阴真经粤语</a></h3>
+          <p>围绕一部绝世武学秘籍，江湖各派展开争夺，恩怨情仇交错成局。</p>
+          <div class="tag-row"><span>动作冒险</span><span>国产</span><span>剧集</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="脱轨" data-category="drama" data-year="2013" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-29.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./29.jpg" alt="脱轨" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2013</span>
+            <span>电影</span>
+            <span class="rating">★ 7.4</span>
+          </div>
+          <h3><a href="./movie/movie-29.html">脱轨</a></h3>
+          <p>围绕《脱轨》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="深埋的宝藏" data-category="drama" data-year="2020" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-30.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./30.jpg" alt="深埋的宝藏" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2020</span>
+            <span>电影</span>
+            <span class="rating">★ 9.0</span>
+          </div>
+          <h3><a href="./movie/movie-30.html">深埋的宝藏</a></h3>
+          <p>围绕《深埋的宝藏》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="潜航核战" data-category="action" data-year="1991" data-region="亚洲">
+        <a class="movie-poster-link" href="./movie/movie-31.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./31.jpg" alt="潜航核战" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">动作冒险</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1991</span>
+            <span>电影</span>
+            <span class="rating">★ 8.5</span>
+          </div>
+          <h3><a href="./movie/movie-31.html">潜航核战</a></h3>
+          <p>《潜航核战》以高燃行动线推进故事，主角在危机中完成勇气与信念的试炼。</p>
+          <div class="tag-row"><span>动作冒险</span><span>亚洲</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="三八线上" data-category="history" data-year="1998" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-32.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./32.jpg" alt="三八线上" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">历史战争</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1998</span>
+            <span>电影</span>
+            <span class="rating">★ 8.0</span>
+          </div>
+          <h3><a href="./movie/movie-32.html">三八线上</a></h3>
+          <p>《三八线上》把个人命运放入历史风云，以厚重叙事展现时代的回声。</p>
+          <div class="tag-row"><span>历史战争</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="误伤" data-category="mystery" data-year="2019" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-33.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./33.jpg" alt="误伤" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">悬疑犯罪</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2019</span>
+            <span>电影</span>
+            <span class="rating">★ 7.5</span>
+          </div>
+          <h3><a href="./movie/movie-33.html">误伤</a></h3>
+          <p>父亲为了保护家人，与强势调查者展开一场缜密而惊险的心理对决。</p>
+          <div class="tag-row"><span>悬疑犯罪</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="花渡" data-category="drama" data-year="2012" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-34.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./34.jpg" alt="花渡" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2012</span>
+            <span>电影</span>
+            <span class="rating">★ 9.1</span>
+          </div>
+          <h3><a href="./movie/movie-34.html">花渡</a></h3>
+          <p>围绕《花渡》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="和帅哥一起吃饭" data-category="comedy" data-year="2019" data-region="亚洲">
+        <a class="movie-poster-link" href="./movie/movie-35.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./35.jpg" alt="和帅哥一起吃饭" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">喜剧生活</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2019</span>
+            <span>电影</span>
+            <span class="rating">★ 8.6</span>
+          </div>
+          <h3><a href="./movie/movie-35.html">和帅哥一起吃饭</a></h3>
+          <p>《和帅哥一起吃饭》用轻快节奏串起生活误会与温暖反转，带来轻松又有人情味的观感。</p>
+          <div class="tag-row"><span>喜剧生活</span><span>亚洲</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="新白蛇传" data-category="scifi" data-year="2021" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-36.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./36.jpg" alt="新白蛇传" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">科幻奇幻</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2021</span>
+            <span>剧集</span>
+            <span class="rating">★ 8.1</span>
+          </div>
+          <h3><a href="./movie/movie-36.html">新白蛇传</a></h3>
+          <p>白蛇与许仙在宿命与人心之间相遇，重写一段流传千年的东方传说。</p>
+          <div class="tag-row"><span>科幻奇幻</span><span>国产</span><span>剧集</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="亚特兰蒂斯 失落的大陆" data-category="scifi" data-year="1997" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-37.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./37.jpg" alt="亚特兰蒂斯 失落的大陆" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">科幻奇幻</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1997</span>
+            <span>电影</span>
+            <span class="rating">★ 7.6</span>
+          </div>
+          <h3><a href="./movie/movie-37.html">亚特兰蒂斯 失落的大陆</a></h3>
+          <p>《亚特兰蒂斯 失落的大陆》以奇幻想象构建全新世界，带出命运、选择与守护的主题。</p>
+          <div class="tag-row"><span>科幻奇幻</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="湖南和平起义" data-category="history" data-year="2004" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-38.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./38.jpg" alt="湖南和平起义" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">历史战争</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2004</span>
+            <span>电影</span>
+            <span class="rating">★ 9.2</span>
+          </div>
+          <h3><a href="./movie/movie-38.html">湖南和平起义</a></h3>
+          <p>《湖南和平起义》把个人命运放入历史风云，以厚重叙事展现时代的回声。</p>
+          <div class="tag-row"><span>历史战争</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="迷雾中的孩子" data-category="family" data-year="2011" data-region="亚洲">
+        <a class="movie-poster-link" href="./movie/movie-39.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./39.jpg" alt="迷雾中的孩子" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">家庭治愈</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2011</span>
+            <span>电影</span>
+            <span class="rating">★ 8.7</span>
+          </div>
+          <h3><a href="./movie/movie-39.html">迷雾中的孩子</a></h3>
+          <p>《迷雾中的孩子》从家庭日常出发，呈现亲情修复、陪伴成长与普通人的温柔力量。</p>
+          <div class="tag-row"><span>家庭治愈</span><span>亚洲</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="二次蜜月" data-category="drama" data-year="2018" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-40.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./40.jpg" alt="二次蜜月" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2018</span>
+            <span>电影</span>
+            <span class="rating">★ 8.2</span>
+          </div>
+          <h3><a href="./movie/movie-40.html">二次蜜月</a></h3>
+          <p>围绕《二次蜜月》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="作家的谎言：笔忠诱罪" data-category="mystery" data-year="2025" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-41.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./41.jpg" alt="作家的谎言：笔忠诱罪" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">悬疑犯罪</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2025</span>
+            <span>电影</span>
+            <span class="rating">★ 7.7</span>
+          </div>
+          <h3><a href="./movie/movie-41.html">作家的谎言：笔忠诱罪</a></h3>
+          <p>《作家的谎言：笔忠诱罪》从一桩疑点重重的事件切入，让真相在层层线索中逐渐浮出水面。</p>
+          <div class="tag-row"><span>悬疑犯罪</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="彩色的星星" data-category="scifi" data-year="1996" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-42.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./42.jpg" alt="彩色的星星" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">科幻奇幻</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1996</span>
+            <span>电影</span>
+            <span class="rating">★ 7.2</span>
+          </div>
+          <h3><a href="./movie/movie-42.html">彩色的星星</a></h3>
+          <p>《彩色的星星》以奇幻想象构建全新世界，带出命运、选择与守护的主题。</p>
+          <div class="tag-row"><span>科幻奇幻</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="大醉侠2002" data-category="action" data-year="2003" data-region="亚洲">
+        <a class="movie-poster-link" href="./movie/movie-43.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./43.jpg" alt="大醉侠2002" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">动作冒险</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2003</span>
+            <span>电影</span>
+            <span class="rating">★ 8.8</span>
+          </div>
+          <h3><a href="./movie/movie-43.html">大醉侠2002</a></h3>
+          <p>《大醉侠2002》以高燃行动线推进故事，主角在危机中完成勇气与信念的试炼。</p>
+          <div class="tag-row"><span>动作冒险</span><span>亚洲</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="美国战舰" data-category="action" data-year="2010" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-44.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./44.jpg" alt="美国战舰" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">动作冒险</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2010</span>
+            <span>电影</span>
+            <span class="rating">★ 8.3</span>
+          </div>
+          <h3><a href="./movie/movie-44.html">美国战舰</a></h3>
+          <p>《美国战舰》以高燃行动线推进故事，主角在危机中完成勇气与信念的试炼。</p>
+          <div class="tag-row"><span>动作冒险</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="刑警队长" data-category="mystery" data-year="2015" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-45.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./45.jpg" alt="刑警队长" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">悬疑犯罪</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2015</span>
+            <span>剧集</span>
+            <span class="rating">★ 7.8</span>
+          </div>
+          <h3><a href="./movie/movie-45.html">刑警队长</a></h3>
+          <p>刑警队长带领团队侦破连环疑案，也在案件背后看见时代与人性的复杂。</p>
+          <div class="tag-row"><span>悬疑犯罪</span><span>国产</span><span>剧集</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="喜爱夜蒲3" data-category="comedy" data-year="2024" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-46.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./46.jpg" alt="喜爱夜蒲3" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">喜剧生活</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2024</span>
+            <span>电影</span>
+            <span class="rating">★ 7.3</span>
+          </div>
+          <h3><a href="./movie/movie-46.html">喜爱夜蒲3</a></h3>
+          <p>《喜爱夜蒲3》用轻快节奏串起生活误会与温暖反转，带来轻松又有人情味的观感。</p>
+          <div class="tag-row"><span>喜剧生活</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="爸爸是条龙" data-category="family" data-year="2015" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-47.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./47.jpg" alt="爸爸是条龙" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">家庭治愈</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2015</span>
+            <span>剧集</span>
+            <span class="rating">★ 8.9</span>
+          </div>
+          <h3><a href="./movie/movie-47.html">爸爸是条龙</a></h3>
+          <p>普通父亲在家庭与事业夹缝中努力前行，用笨拙方式守护一家人的温暖。</p>
+          <div class="tag-row"><span>家庭治愈</span><span>国产</span><span>剧集</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="嫦娥幻梦" data-category="scifi" data-year="2002" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-48.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./48.jpg" alt="嫦娥幻梦" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">科幻奇幻</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2002</span>
+            <span>电影</span>
+            <span class="rating">★ 8.4</span>
+          </div>
+          <h3><a href="./movie/movie-48.html">嫦娥幻梦</a></h3>
+          <p>《嫦娥幻梦》以奇幻想象构建全新世界，带出命运、选择与守护的主题。</p>
+          <div class="tag-row"><span>科幻奇幻</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="柏林孽恋" data-category="romance" data-year="2009" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-49.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./49.jpg" alt="柏林孽恋" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">爱情情感</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2009</span>
+            <span>电影</span>
+            <span class="rating">★ 7.9</span>
+          </div>
+          <h3><a href="./movie/movie-49.html">柏林孽恋</a></h3>
+          <p>《柏林孽恋》描写相遇、错过与靠近，在细腻情感里呈现关系的多面质地。</p>
+          <div class="tag-row"><span>爱情情感</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="雪中的奇迹" data-category="drama" data-year="2016" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-50.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./50.jpg" alt="雪中的奇迹" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2016</span>
+            <span>电影</span>
+            <span class="rating">★ 7.4</span>
+          </div>
+          <h3><a href="./movie/movie-50.html">雪中的奇迹</a></h3>
+          <p>围绕《雪中的奇迹》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="挑战者" data-category="action" data-year="2023" data-region="亚洲">
+        <a class="movie-poster-link" href="./movie/movie-51.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./51.jpg" alt="挑战者" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">动作冒险</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2023</span>
+            <span>电影</span>
+            <span class="rating">★ 9.0</span>
+          </div>
+          <h3><a href="./movie/movie-51.html">挑战者</a></h3>
+          <p>《挑战者》以高燃行动线推进故事，主角在危机中完成勇气与信念的试炼。</p>
+          <div class="tag-row"><span>动作冒险</span><span>亚洲</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="警中警2" data-category="mystery" data-year="1994" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-52.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./52.jpg" alt="警中警2" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">悬疑犯罪</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1994</span>
+            <span>电影</span>
+            <span class="rating">★ 8.5</span>
+          </div>
+          <h3><a href="./movie/movie-52.html">警中警2</a></h3>
+          <p>《警中警2》从一桩疑点重重的事件切入，让真相在层层线索中逐渐浮出水面。</p>
+          <div class="tag-row"><span>悬疑犯罪</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="八爪女" data-category="drama" data-year="2001" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-53.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./53.jpg" alt="八爪女" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2001</span>
+            <span>电影</span>
+            <span class="rating">★ 8.0</span>
+          </div>
+          <h3><a href="./movie/movie-53.html">八爪女</a></h3>
+          <p>围绕《八爪女》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="卡美洛" data-category="drama" data-year="2008" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-54.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./54.jpg" alt="卡美洛" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2008</span>
+            <span>电影</span>
+            <span class="rating">★ 7.5</span>
+          </div>
+          <h3><a href="./movie/movie-54.html">卡美洛</a></h3>
+          <p>围绕《卡美洛》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="翻叮一族粤语" data-category="drama" data-year="2015" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-55.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./55.jpg" alt="翻叮一族粤语" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2015</span>
+            <span>电影</span>
+            <span class="rating">★ 9.1</span>
+          </div>
+          <h3><a href="./movie/movie-55.html">翻叮一族粤语</a></h3>
+          <p>围绕《翻叮一族粤语》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="我不卖身我卖子宫" data-category="drama" data-year="2022" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-56.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./56.jpg" alt="我不卖身我卖子宫" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2022</span>
+            <span>电影</span>
+            <span class="rating">★ 8.6</span>
+          </div>
+          <h3><a href="./movie/movie-56.html">我不卖身我卖子宫</a></h3>
+          <p>围绕《我不卖身我卖子宫》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="靶鸽" data-category="drama" data-year="1993" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-57.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./57.jpg" alt="靶鸽" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1993</span>
+            <span>电影</span>
+            <span class="rating">★ 8.1</span>
+          </div>
+          <h3><a href="./movie/movie-57.html">靶鸽</a></h3>
+          <p>围绕《靶鸽》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="卡兰克" data-category="history" data-year="2000" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-58.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./58.jpg" alt="卡兰克" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">历史战争</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2000</span>
+            <span>电影</span>
+            <span class="rating">★ 7.6</span>
+          </div>
+          <h3><a href="./movie/movie-58.html">卡兰克</a></h3>
+          <p>《卡兰克》把个人命运放入历史风云，以厚重叙事展现时代的回声。</p>
+          <div class="tag-row"><span>历史战争</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="超级骗子" data-category="mystery" data-year="2007" data-region="亚洲">
+        <a class="movie-poster-link" href="./movie/movie-59.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./59.jpg" alt="超级骗子" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">悬疑犯罪</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2007</span>
+            <span>电影</span>
+            <span class="rating">★ 9.2</span>
+          </div>
+          <h3><a href="./movie/movie-59.html">超级骗子</a></h3>
+          <p>《超级骗子》从一桩疑点重重的事件切入，让真相在层层线索中逐渐浮出水面。</p>
+          <div class="tag-row"><span>悬疑犯罪</span><span>亚洲</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="暗夜摇篮曲" data-category="thriller" data-year="2014" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-60.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./60.jpg" alt="暗夜摇篮曲" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">恐怖惊悚</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2014</span>
+            <span>电影</span>
+            <span class="rating">★ 8.7</span>
+          </div>
+          <h3><a href="./movie/movie-60.html">暗夜摇篮曲</a></h3>
+          <p>《暗夜摇篮曲》营造紧张氛围，让角色在未知威胁与心理压力中寻找出路。</p>
+          <div class="tag-row"><span>恐怖惊悚</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="宇宙海盗哈洛克" data-category="scifi" data-year="2021" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-61.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./61.jpg" alt="宇宙海盗哈洛克" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">科幻奇幻</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2021</span>
+            <span>电影</span>
+            <span class="rating">★ 8.2</span>
+          </div>
+          <h3><a href="./movie/movie-61.html">宇宙海盗哈洛克</a></h3>
+          <p>《宇宙海盗哈洛克》以奇幻想象构建全新世界，带出命运、选择与守护的主题。</p>
+          <div class="tag-row"><span>科幻奇幻</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="丑人儿" data-category="drama" data-year="1992" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-62.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./62.jpg" alt="丑人儿" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1992</span>
+            <span>电影</span>
+            <span class="rating">★ 7.7</span>
+          </div>
+          <h3><a href="./movie/movie-62.html">丑人儿</a></h3>
+          <p>围绕《丑人儿》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="有点意思的院子里院季" data-category="drama" data-year="1999" data-region="亚洲">
+        <a class="movie-poster-link" href="./movie/movie-63.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./63.jpg" alt="有点意思的院子里院季" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1999</span>
+            <span>电影</span>
+            <span class="rating">★ 7.2</span>
+          </div>
+          <h3><a href="./movie/movie-63.html">有点意思的院子里院季</a></h3>
+          <p>围绕《有点意思的院子里院季》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>亚洲</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="街头武士" data-category="action" data-year="2006" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-64.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./64.jpg" alt="街头武士" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">动作冒险</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2006</span>
+            <span>电影</span>
+            <span class="rating">★ 8.8</span>
+          </div>
+          <h3><a href="./movie/movie-64.html">街头武士</a></h3>
+          <p>《街头武士》以高燃行动线推进故事，主角在危机中完成勇气与信念的试炼。</p>
+          <div class="tag-row"><span>动作冒险</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="大卖空" data-category="drama" data-year="2015" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-65.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./65.jpg" alt="大卖空" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2015</span>
+            <span>电影</span>
+            <span class="rating">★ 8.3</span>
+          </div>
+          <h3><a href="./movie/movie-65.html">大卖空</a></h3>
+          <p>几位提前看见金融风暴的人逆势下注，在财富狂潮中看清系统裂缝。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="绝命荒漠" data-category="thriller" data-year="2020" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-66.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./66.jpg" alt="绝命荒漠" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">恐怖惊悚</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2020</span>
+            <span>电影</span>
+            <span class="rating">★ 7.8</span>
+          </div>
+          <h3><a href="./movie/movie-66.html">绝命荒漠</a></h3>
+          <p>《绝命荒漠》营造紧张氛围，让角色在未知威胁与心理压力中寻找出路。</p>
+          <div class="tag-row"><span>恐怖惊悚</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="亡命杀镇" data-category="mystery" data-year="1991" data-region="亚洲">
+        <a class="movie-poster-link" href="./movie/movie-67.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./67.jpg" alt="亡命杀镇" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">悬疑犯罪</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1991</span>
+            <span>电影</span>
+            <span class="rating">★ 7.3</span>
+          </div>
+          <h3><a href="./movie/movie-67.html">亡命杀镇</a></h3>
+          <p>《亡命杀镇》从一桩疑点重重的事件切入，让真相在层层线索中逐渐浮出水面。</p>
+          <div class="tag-row"><span>悬疑犯罪</span><span>亚洲</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="决一死战" data-category="action" data-year="1998" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-68.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./68.jpg" alt="决一死战" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">动作冒险</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1998</span>
+            <span>电影</span>
+            <span class="rating">★ 8.9</span>
+          </div>
+          <h3><a href="./movie/movie-68.html">决一死战</a></h3>
+          <p>《决一死战》以高燃行动线推进故事，主角在危机中完成勇气与信念的试炼。</p>
+          <div class="tag-row"><span>动作冒险</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="战国妖狐千魔混沌篇" data-category="action" data-year="2005" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-69.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./69.jpg" alt="战国妖狐千魔混沌篇" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">动作冒险</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2005</span>
+            <span>电影</span>
+            <span class="rating">★ 8.4</span>
+          </div>
+          <h3><a href="./movie/movie-69.html">战国妖狐千魔混沌篇</a></h3>
+          <p>《战国妖狐千魔混沌篇》以高燃行动线推进故事，主角在危机中完成勇气与信念的试炼。</p>
+          <div class="tag-row"><span>动作冒险</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="星空异形" data-category="scifi" data-year="2012" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-70.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./70.jpg" alt="星空异形" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">科幻奇幻</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2012</span>
+            <span>电影</span>
+            <span class="rating">★ 7.9</span>
+          </div>
+          <h3><a href="./movie/movie-70.html">星空异形</a></h3>
+          <p>《星空异形》以奇幻想象构建全新世界，带出命运、选择与守护的主题。</p>
+          <div class="tag-row"><span>科幻奇幻</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="嗜血蟑螂" data-category="thriller" data-year="2019" data-region="亚洲">
+        <a class="movie-poster-link" href="./movie/movie-71.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./71.jpg" alt="嗜血蟑螂" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">恐怖惊悚</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2019</span>
+            <span>电影</span>
+            <span class="rating">★ 7.4</span>
+          </div>
+          <h3><a href="./movie/movie-71.html">嗜血蟑螂</a></h3>
+          <p>《嗜血蟑螂》营造紧张氛围，让角色在未知威胁与心理压力中寻找出路。</p>
+          <div class="tag-row"><span>恐怖惊悚</span><span>亚洲</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="奇情追踪" data-category="romance" data-year="1990" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-72.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./72.jpg" alt="奇情追踪" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">爱情情感</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1990</span>
+            <span>电影</span>
+            <span class="rating">★ 9.0</span>
+          </div>
+          <h3><a href="./movie/movie-72.html">奇情追踪</a></h3>
+          <p>《奇情追踪》描写相遇、错过与靠近，在细腻情感里呈现关系的多面质地。</p>
+          <div class="tag-row"><span>爱情情感</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="弄巧成拙" data-category="comedy" data-year="1997" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-73.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./73.jpg" alt="弄巧成拙" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">喜剧生活</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1997</span>
+            <span>电影</span>
+            <span class="rating">★ 8.5</span>
+          </div>
+          <h3><a href="./movie/movie-73.html">弄巧成拙</a></h3>
+          <p>《弄巧成拙》用轻快节奏串起生活误会与温暖反转，带来轻松又有人情味的观感。</p>
+          <div class="tag-row"><span>喜剧生活</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="校园赛车手" data-category="youth" data-year="2004" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-74.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./74.jpg" alt="校园赛车手" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">青春校园</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2004</span>
+            <span>电影</span>
+            <span class="rating">★ 8.0</span>
+          </div>
+          <h3><a href="./movie/movie-74.html">校园赛车手</a></h3>
+          <p>《校园赛车手》聚焦青春选择和成长阵痛，记录少年人在变化中寻找方向。</p>
+          <div class="tag-row"><span>青春校园</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="夜行杀阵" data-category="mystery" data-year="2011" data-region="亚洲">
+        <a class="movie-poster-link" href="./movie/movie-75.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./75.jpg" alt="夜行杀阵" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">悬疑犯罪</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2011</span>
+            <span>电影</span>
+            <span class="rating">★ 7.5</span>
+          </div>
+          <h3><a href="./movie/movie-75.html">夜行杀阵</a></h3>
+          <p>《夜行杀阵》从一桩疑点重重的事件切入，让真相在层层线索中逐渐浮出水面。</p>
+          <div class="tag-row"><span>悬疑犯罪</span><span>亚洲</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="夜之后" data-category="thriller" data-year="2018" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-76.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./76.jpg" alt="夜之后" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">恐怖惊悚</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2018</span>
+            <span>电影</span>
+            <span class="rating">★ 9.1</span>
+          </div>
+          <h3><a href="./movie/movie-76.html">夜之后</a></h3>
+          <p>《夜之后》营造紧张氛围，让角色在未知威胁与心理压力中寻找出路。</p>
+          <div class="tag-row"><span>恐怖惊悚</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="最后一镖" data-category="drama" data-year="2025" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-77.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./77.jpg" alt="最后一镖" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2025</span>
+            <span>电影</span>
+            <span class="rating">★ 8.6</span>
+          </div>
+          <h3><a href="./movie/movie-77.html">最后一镖</a></h3>
+          <p>围绕《最后一镖》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="碧血黄花" data-category="history" data-year="1996" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-78.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./78.jpg" alt="碧血黄花" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">历史战争</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1996</span>
+            <span>电影</span>
+            <span class="rating">★ 8.1</span>
+          </div>
+          <h3><a href="./movie/movie-78.html">碧血黄花</a></h3>
+          <p>《碧血黄花》把个人命运放入历史风云，以厚重叙事展现时代的回声。</p>
+          <div class="tag-row"><span>历史战争</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="特别的一天" data-category="drama" data-year="2003" data-region="亚洲">
+        <a class="movie-poster-link" href="./movie/movie-79.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./79.jpg" alt="特别的一天" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2003</span>
+            <span>电影</span>
+            <span class="rating">★ 7.6</span>
+          </div>
+          <h3><a href="./movie/movie-79.html">特别的一天</a></h3>
+          <p>围绕《特别的一天》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>亚洲</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="他人之屋" data-category="drama" data-year="2010" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-80.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./80.jpg" alt="他人之屋" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2010</span>
+            <span>电影</span>
+            <span class="rating">★ 9.2</span>
+          </div>
+          <h3><a href="./movie/movie-80.html">他人之屋</a></h3>
+          <p>围绕《他人之屋》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="只留青春不留你" data-category="youth" data-year="2017" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-81.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./81.jpg" alt="只留青春不留你" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">青春校园</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2017</span>
+            <span>电影</span>
+            <span class="rating">★ 8.7</span>
+          </div>
+          <h3><a href="./movie/movie-81.html">只留青春不留你</a></h3>
+          <p>《只留青春不留你》聚焦青春选择和成长阵痛，记录少年人在变化中寻找方向。</p>
+          <div class="tag-row"><span>青春校园</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="不一样的爱人国语" data-category="romance" data-year="2024" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-82.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./82.jpg" alt="不一样的爱人国语" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">爱情情感</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2024</span>
+            <span>电影</span>
+            <span class="rating">★ 8.2</span>
+          </div>
+          <h3><a href="./movie/movie-82.html">不一样的爱人国语</a></h3>
+          <p>《不一样的爱人国语》描写相遇、错过与靠近，在细腻情感里呈现关系的多面质地。</p>
+          <div class="tag-row"><span>爱情情感</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="花明渡" data-category="drama" data-year="1995" data-region="亚洲">
+        <a class="movie-poster-link" href="./movie/movie-83.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./83.jpg" alt="花明渡" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1995</span>
+            <span>电影</span>
+            <span class="rating">★ 7.7</span>
+          </div>
+          <h3><a href="./movie/movie-83.html">花明渡</a></h3>
+          <p>围绕《花明渡》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>亚洲</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="尸体不沉默" data-category="mystery" data-year="2002" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-84.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./84.jpg" alt="尸体不沉默" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">悬疑犯罪</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2002</span>
+            <span>电影</span>
+            <span class="rating">★ 7.2</span>
+          </div>
+          <h3><a href="./movie/movie-84.html">尸体不沉默</a></h3>
+          <p>《尸体不沉默》从一桩疑点重重的事件切入，让真相在层层线索中逐渐浮出水面。</p>
+          <div class="tag-row"><span>悬疑犯罪</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="再生缘粤语" data-category="romance" data-year="2009" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-85.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./85.jpg" alt="再生缘粤语" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">爱情情感</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2009</span>
+            <span>电影</span>
+            <span class="rating">★ 8.8</span>
+          </div>
+          <h3><a href="./movie/movie-85.html">再生缘粤语</a></h3>
+          <p>《再生缘粤语》描写相遇、错过与靠近，在细腻情感里呈现关系的多面质地。</p>
+          <div class="tag-row"><span>爱情情感</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="哈瓦那的吸血鬼" data-category="thriller" data-year="2016" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-86.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./86.jpg" alt="哈瓦那的吸血鬼" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">恐怖惊悚</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2016</span>
+            <span>电影</span>
+            <span class="rating">★ 8.3</span>
+          </div>
+          <h3><a href="./movie/movie-86.html">哈瓦那的吸血鬼</a></h3>
+          <p>《哈瓦那的吸血鬼》营造紧张氛围，让角色在未知威胁与心理压力中寻找出路。</p>
+          <div class="tag-row"><span>恐怖惊悚</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="湖畔惊魂" data-category="thriller" data-year="2023" data-region="亚洲">
+        <a class="movie-poster-link" href="./movie/movie-87.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./87.jpg" alt="湖畔惊魂" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">恐怖惊悚</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2023</span>
+            <span>电影</span>
+            <span class="rating">★ 7.8</span>
+          </div>
+          <h3><a href="./movie/movie-87.html">湖畔惊魂</a></h3>
+          <p>《湖畔惊魂》营造紧张氛围，让角色在未知威胁与心理压力中寻找出路。</p>
+          <div class="tag-row"><span>恐怖惊悚</span><span>亚洲</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="某人某地第二季" data-category="drama" data-year="1994" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-88.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./88.jpg" alt="某人某地第二季" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1994</span>
+            <span>剧集</span>
+            <span class="rating">★ 7.3</span>
+          </div>
+          <h3><a href="./movie/movie-88.html">某人某地第二季</a></h3>
+          <p>围绕《某人某地第二季》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>国产</span><span>剧集</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="功夫梦：融合之道" data-category="action" data-year="2025" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-89.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./89.jpg" alt="功夫梦：融合之道" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">动作冒险</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2025</span>
+            <span>电影</span>
+            <span class="rating">★ 8.9</span>
+          </div>
+          <h3><a href="./movie/movie-89.html">功夫梦：融合之道</a></h3>
+          <p>少年在两种武学传统之间找到自己的节奏，用训练和勇气迎接真正的挑战。</p>
+          <div class="tag-row"><span>动作冒险</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="无惧神明" data-category="scifi" data-year="2008" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-90.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./90.jpg" alt="无惧神明" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">科幻奇幻</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2008</span>
+            <span>电影</span>
+            <span class="rating">★ 8.4</span>
+          </div>
+          <h3><a href="./movie/movie-90.html">无惧神明</a></h3>
+          <p>《无惧神明》以奇幻想象构建全新世界，带出命运、选择与守护的主题。</p>
+          <div class="tag-row"><span>科幻奇幻</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="镭的浪漫" data-category="romance" data-year="2015" data-region="亚洲">
+        <a class="movie-poster-link" href="./movie/movie-91.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./91.jpg" alt="镭的浪漫" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">爱情情感</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2015</span>
+            <span>电影</span>
+            <span class="rating">★ 7.9</span>
+          </div>
+          <h3><a href="./movie/movie-91.html">镭的浪漫</a></h3>
+          <p>《镭的浪漫》描写相遇、错过与靠近，在细腻情感里呈现关系的多面质地。</p>
+          <div class="tag-row"><span>爱情情感</span><span>亚洲</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="雌雄双煞" data-category="drama" data-year="2022" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-92.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./92.jpg" alt="雌雄双煞" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2022</span>
+            <span>电影</span>
+            <span class="rating">★ 7.4</span>
+          </div>
+          <h3><a href="./movie/movie-92.html">雌雄双煞</a></h3>
+          <p>围绕《雌雄双煞》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="女卡车司机" data-category="drama" data-year="1993" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-93.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./93.jpg" alt="女卡车司机" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1993</span>
+            <span>电影</span>
+            <span class="rating">★ 9.0</span>
+          </div>
+          <h3><a href="./movie/movie-93.html">女卡车司机</a></h3>
+          <p>围绕《女卡车司机》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="烽火幽兰" data-category="drama" data-year="2000" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-94.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./94.jpg" alt="烽火幽兰" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2000</span>
+            <span>电影</span>
+            <span class="rating">★ 8.5</span>
+          </div>
+          <h3><a href="./movie/movie-94.html">烽火幽兰</a></h3>
+          <p>围绕《烽火幽兰》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="猎魂师" data-category="scifi" data-year="2022" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-95.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./95.jpg" alt="猎魂师" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">科幻奇幻</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2022</span>
+            <span>电影</span>
+            <span class="rating">★ 8.0</span>
+          </div>
+          <h3><a href="./movie/movie-95.html">猎魂师</a></h3>
+          <p>在魂魄可以交易的时代，一位猎魂师被迫追捕自己已故爱人的残魂。</p>
+          <div class="tag-row"><span>科幻奇幻</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="霹雳奇象" data-category="action" data-year="2022" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-96.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./96.jpg" alt="霹雳奇象" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">动作冒险</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2022</span>
+            <span>电影</span>
+            <span class="rating">★ 7.5</span>
+          </div>
+          <h3><a href="./movie/movie-96.html">霹雳奇象</a></h3>
+          <p>少年因一道霹雳奇象获得异能，卷入千年正邪之战，守护人间结界。</p>
+          <div class="tag-row"><span>动作冒险</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="万古剑神2021" data-category="action" data-year="2021" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-97.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./97.jpg" alt="万古剑神2021" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">动作冒险</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2021</span>
+            <span>电影</span>
+            <span class="rating">★ 9.1</span>
+          </div>
+          <h3><a href="./movie/movie-97.html">万古剑神2021</a></h3>
+          <p>沉睡万载的剑神在现代苏醒，以平凡身份重拾斩妖之剑。</p>
+          <div class="tag-row"><span>动作冒险</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="宁为女人" data-category="drama" data-year="2019" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-98.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./98.jpg" alt="宁为女人" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2019</span>
+            <span>电影</span>
+            <span class="rating">★ 8.6</span>
+          </div>
+          <h3><a href="./movie/movie-98.html">宁为女人</a></h3>
+          <p>民国时期，三位出身迥异的女性在时代洪流中相互扶持，挣脱命运枷锁。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="一别两宽终不悔" data-category="romance" data-year="2023" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-99.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./99.jpg" alt="一别两宽终不悔" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">爱情情感</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2023</span>
+            <span>电影</span>
+            <span class="rating">★ 8.1</span>
+          </div>
+          <h3><a href="./movie/movie-99.html">一别两宽终不悔</a></h3>
+          <p>分手多年的初恋情侣因一本共同写作的日记重逢，直面未完成的告别。</p>
+          <div class="tag-row"><span>爱情情感</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="影子部队" data-category="scifi" data-year="2017" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-100.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./100.jpg" alt="影子部队" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">科幻奇幻</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2017</span>
+            <span>电影</span>
+            <span class="rating">★ 7.6</span>
+          </div>
+          <h3><a href="./movie/movie-100.html">影子部队</a></h3>
+          <p>顶尖特工发现自己是可被替换的克隆体，为夺回身份向组织宣战。</p>
+          <div class="tag-row"><span>科幻奇幻</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="2024安徽春晚" data-category="music" data-year="2024" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-101.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./101.jpg" alt="2024安徽春晚" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">音乐运动</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2024</span>
+            <span>电影</span>
+            <span class="rating">★ 9.2</span>
+          </div>
+          <h3><a href="./movie/movie-101.html">2024安徽春晚</a></h3>
+          <p>一个为圆外婆心愿临时组建的家庭剧团，意外登上春晚舞台。</p>
+          <div class="tag-row"><span>音乐运动</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="群狗2016" data-category="thriller" data-year="2016" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-102.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./102.jpg" alt="群狗2016" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">恐怖惊悚</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2016</span>
+            <span>电影</span>
+            <span class="rating">★ 8.7</span>
+          </div>
+          <h3><a href="./movie/movie-102.html">群狗2016</a></h3>
+          <p>小镇宠物狗突发攻击性怪病，居民在恐惧中重建彼此信任。</p>
+          <div class="tag-row"><span>恐怖惊悚</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="佐杜洛夫斯基的沙丘" data-category="scifi" data-year="2025" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-103.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./103.jpg" alt="佐杜洛夫斯基的沙丘" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">科幻奇幻</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2025</span>
+            <span>电影</span>
+            <span class="rating">★ 8.2</span>
+          </div>
+          <h3><a href="./movie/movie-103.html">佐杜洛夫斯基的沙丘</a></h3>
+          <p>平行时空里，传奇导演真的拍出了他那部惊世骇俗的沙丘。</p>
+          <div class="tag-row"><span>科幻奇幻</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="假面女主她以身入局" data-category="mystery" data-year="2024" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-104.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./104.jpg" alt="假面女主她以身入局" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">悬疑犯罪</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2024</span>
+            <span>电影</span>
+            <span class="rating">★ 7.7</span>
+          </div>
+          <h3><a href="./movie/movie-104.html">假面女主她以身入局</a></h3>
+          <p>她被迫戴上太子妃面具入宫为替身，却发现自己陷入更大的阴谋。</p>
+          <div class="tag-row"><span>悬疑犯罪</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="王保长新篇Ⅱ死去生来" data-category="comedy" data-year="2009" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-105.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./105.jpg" alt="王保长新篇Ⅱ死去生来" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">喜剧生活</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2009</span>
+            <span>电影</span>
+            <span class="rating">★ 7.2</span>
+          </div>
+          <h3><a href="./movie/movie-105.html">王保长新篇Ⅱ死去生来</a></h3>
+          <p>贪财怕事的王保长假死逃债，却被迫以另一重身份处理乡亲们的荒诞事。</p>
+          <div class="tag-row"><span>喜剧生活</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="陛下，这纨绔开挂了" data-category="comedy" data-year="2023" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-106.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./106.jpg" alt="陛下，这纨绔开挂了" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">喜剧生活</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2023</span>
+            <span>电影</span>
+            <span class="rating">★ 8.8</span>
+          </div>
+          <h3><a href="./movie/movie-106.html">陛下，这纨绔开挂了</a></h3>
+          <p>穿成纨绔女配的她靠现代知识疯狂自救，却让暴君陛下另眼相看。</p>
+          <div class="tag-row"><span>喜剧生活</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="驯龙记：伯克岛的龙骑手第一季" data-category="animation" data-year="2014" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-107.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./107.jpg" alt="驯龙记：伯克岛的龙骑手第一季" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">动画少儿</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2014</span>
+            <span>动画</span>
+            <span class="rating">★ 8.3</span>
+          </div>
+          <h3><a href="./movie/movie-107.html">驯龙记：伯克岛的龙骑手第一季</a></h3>
+          <p>小嗝嗝与没牙仔带领族人学习与龙共存，迎接新挑战。</p>
+          <div class="tag-row"><span>动画少儿</span><span>欧美</span><span>动画</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="大赌场粤语" data-category="mystery" data-year="1991" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-108.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./108.jpg" alt="大赌场粤语" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">悬疑犯罪</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1991</span>
+            <span>电影</span>
+            <span class="rating">★ 7.8</span>
+          </div>
+          <h3><a href="./movie/movie-108.html">大赌场粤语</a></h3>
+          <p>八十年代澳门，一个小混混闯入赌场江湖，在欲望与道义间挣扎沉浮。</p>
+          <div class="tag-row"><span>悬疑犯罪</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="恶搞之家第二十一季" data-category="animation" data-year="2023" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-109.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./109.jpg" alt="恶搞之家第二十一季" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">动画少儿</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2023</span>
+            <span>动画</span>
+            <span class="rating">★ 7.3</span>
+          </div>
+          <h3><a href="./movie/movie-109.html">恶搞之家第二十一季</a></h3>
+          <p>Griffin一家继续在Quahog镇上演爆笑又扎心的疯狂日常。</p>
+          <div class="tag-row"><span>动画少儿</span><span>欧美</span><span>动画</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="轮到你了特别篇" data-category="mystery" data-year="2020" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-110.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./110.jpg" alt="轮到你了特别篇" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">悬疑犯罪</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2020</span>
+            <span>电影</span>
+            <span class="rating">★ 8.9</span>
+          </div>
+          <h3><a href="./movie/movie-110.html">轮到你了特别篇</a></h3>
+          <p>交换杀人游戏尘埃落定后，幸存者们面对镜头讲述不为人知的秘密。</p>
+          <div class="tag-row"><span>悬疑犯罪</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="得州巡警：独立" data-category="action" data-year="2021" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-111.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./111.jpg" alt="得州巡警：独立" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">动作冒险</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2021</span>
+            <span>电影</span>
+            <span class="rating">★ 8.4</span>
+          </div>
+          <h3><a href="./movie/movie-111.html">得州巡警：独立</a></h3>
+          <p>退休得州巡警为护送关键证人，驾车横穿得州与跨国集团鏖战。</p>
+          <div class="tag-row"><span>动作冒险</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="大预言家" data-category="scifi" data-year="2018" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-112.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./112.jpg" alt="大预言家" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">科幻奇幻</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2018</span>
+            <span>电影</span>
+            <span class="rating">★ 7.9</span>
+          </div>
+          <h3><a href="./movie/movie-112.html">大预言家</a></h3>
+          <p>能预知他人死亡的青年试图打破命运，直到遇见一个例外。</p>
+          <div class="tag-row"><span>科幻奇幻</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="贪吃树" data-category="thriller" data-year="2007" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-113.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./113.jpg" alt="贪吃树" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">恐怖惊悚</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2007</span>
+            <span>电影</span>
+            <span class="rating">★ 7.4</span>
+          </div>
+          <h3><a href="./movie/movie-113.html">贪吃树</a></h3>
+          <p>无法生育的夫妇养育了一棵具有生命且胃口越来越大的树孩。</p>
+          <div class="tag-row"><span>恐怖惊悚</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="幸福来敲门 天津卫视2022" data-category="family" data-year="2022" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-114.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./114.jpg" alt="幸福来敲门 天津卫视2022" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">家庭治愈</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2022</span>
+            <span>电影</span>
+            <span class="rating">★ 9.0</span>
+          </div>
+          <h3><a href="./movie/movie-114.html">幸福来敲门 天津卫视2022</a></h3>
+          <p>一档濒临停播的相亲节目，意外成为社区老人追求幸福的舞台。</p>
+          <div class="tag-row"><span>家庭治愈</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="顾指挥的农家小甜妻" data-category="romance" data-year="2021" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-115.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./115.jpg" alt="顾指挥的农家小甜妻" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">爱情情感</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2021</span>
+            <span>电影</span>
+            <span class="rating">★ 8.5</span>
+          </div>
+          <h3><a href="./movie/movie-115.html">顾指挥的农家小甜妻</a></h3>
+          <p>失忆边防指挥使流落小山村，被厨艺高超的农家女所救。</p>
+          <div class="tag-row"><span>爱情情感</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="妻子的反击27集" data-category="family" data-year="2016" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-116.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./116.jpg" alt="妻子的反击27集" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">家庭治愈</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2016</span>
+            <span>剧集</span>
+            <span class="rating">★ 8.0</span>
+          </div>
+          <h3><a href="./movie/movie-116.html">妻子的反击27集</a></h3>
+          <p>全职主妇发现丈夫背叛后，隐忍布局一步步夺回尊严。</p>
+          <div class="tag-row"><span>家庭治愈</span><span>日韩</span><span>剧集</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="维玛拉的圈套 情链第二季" data-category="romance" data-year="2023" data-region="亚洲">
+        <a class="movie-poster-link" href="./movie/movie-117.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./117.jpg" alt="维玛拉的圈套 情链第二季" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">爱情情感</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2023</span>
+            <span>剧集</span>
+            <span class="rating">★ 7.5</span>
+          </div>
+          <h3><a href="./movie/movie-117.html">维玛拉的圈套 情链第二季</a></h3>
+          <p>豪门新娘深陷杀夫嫌疑，为自保与丈夫的冷酷弟弟联手。</p>
+          <div class="tag-row"><span>爱情情感</span><span>亚洲</span><span>剧集</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="查无此人国语" data-category="mystery" data-year="2015" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-118.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./118.jpg" alt="查无此人国语" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">悬疑犯罪</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2015</span>
+            <span>电影</span>
+            <span class="rating">★ 9.1</span>
+          </div>
+          <h3><a href="./movie/movie-118.html">查无此人国语</a></h3>
+          <p>父亲寻找失踪多年的女儿，却发现她的身份信息被彻底抹去。</p>
+          <div class="tag-row"><span>悬疑犯罪</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="巴黎颂纽约情" data-category="music" data-year="2018" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-119.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./119.jpg" alt="巴黎颂纽约情" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">音乐运动</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2018</span>
+            <span>电影</span>
+            <span class="rating">★ 8.6</span>
+          </div>
+          <h3><a href="./movie/movie-119.html">巴黎颂纽约情</a></h3>
+          <p>法国女歌手与纽约音乐制作人，在隔空创作中谱写恋曲。</p>
+          <div class="tag-row"><span>音乐运动</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="恋恋不忘的我们" data-category="romance" data-year="2021" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-120.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./120.jpg" alt="恋恋不忘的我们" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">爱情情感</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2021</span>
+            <span>电影</span>
+            <span class="rating">★ 8.1</span>
+          </div>
+          <h3><a href="./movie/movie-120.html">恋恋不忘的我们</a></h3>
+          <p>十年后同学会重逢，一群中年人面对青春未完成的恋情与选择。</p>
+          <div class="tag-row"><span>爱情情感</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="校园大冲突" data-category="youth" data-year="2005" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-121.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./121.jpg" alt="校园大冲突" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">青春校园</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2005</span>
+            <span>电影</span>
+            <span class="rating">★ 7.6</span>
+          </div>
+          <h3><a href="./movie/movie-121.html">校园大冲突</a></h3>
+          <p>两所顶尖高中为了最强之名，从学术竞赛演变为全面对抗。</p>
+          <div class="tag-row"><span>青春校园</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="人海骄阳粤语" data-category="family" data-year="1998" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-122.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./122.jpg" alt="人海骄阳粤语" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">家庭治愈</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1998</span>
+            <span>电影</span>
+            <span class="rating">★ 9.2</span>
+          </div>
+          <h3><a href="./movie/movie-122.html">人海骄阳粤语</a></h3>
+          <p>香港茶餐厅家族在时代变迁中守护亲情与传统。</p>
+          <div class="tag-row"><span>家庭治愈</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="冲破囚笼" data-category="scifi" data-year="2015" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-123.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./123.jpg" alt="冲破囚笼" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">科幻奇幻</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2015</span>
+            <span>电影</span>
+            <span class="rating">★ 8.7</span>
+          </div>
+          <h3><a href="./movie/movie-123.html">冲破囚笼</a></h3>
+          <p>陌生人醒来发现被困于无限循环的小镇，必须找出规律才能逃脱。</p>
+          <div class="tag-row"><span>科幻奇幻</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="报告班长7：勇往直前" data-category="action" data-year="2023" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-124.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./124.jpg" alt="报告班长7：勇往直前" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">动作冒险</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2023</span>
+            <span>电影</span>
+            <span class="rating">★ 8.2</span>
+          </div>
+          <h3><a href="./movie/movie-124.html">报告班长7：勇往直前</a></h3>
+          <p>特种部队预备小队在魔鬼教官带领下参与国际反恐救援行动。</p>
+          <div class="tag-row"><span>动作冒险</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="孤胆江湖" data-category="action" data-year="2008" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-125.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./125.jpg" alt="孤胆江湖" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">动作冒险</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2008</span>
+            <span>电影</span>
+            <span class="rating">★ 7.7</span>
+          </div>
+          <h3><a href="./movie/movie-125.html">孤胆江湖</a></h3>
+          <p>退出江湖的刀客为救故人之女，重拾旧刀独闯龙潭。</p>
+          <div class="tag-row"><span>动作冒险</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="魂迷百世间" data-category="romance" data-year="2012" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-126.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./126.jpg" alt="魂迷百世间" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">爱情情感</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2012</span>
+            <span>电影</span>
+            <span class="rating">★ 7.2</span>
+          </div>
+          <h3><a href="./movie/movie-126.html">魂迷百世间</a></h3>
+          <p>孤独灵魂每隔百年附身于不同时代的女性，寻找千年前失散的爱人。</p>
+          <div class="tag-row"><span>爱情情感</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="大法医宋慈系列之偷梁换柱" data-category="mystery" data-year="2017" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-127.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./127.jpg" alt="大法医宋慈系列之偷梁换柱" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">悬疑犯罪</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2017</span>
+            <span>电影</span>
+            <span class="rating">★ 8.8</span>
+          </div>
+          <h3><a href="./movie/movie-127.html">大法医宋慈系列之偷梁换柱</a></h3>
+          <p>宋慈查验焦尸时发现死者身份被调换，牵出官场黑幕。</p>
+          <div class="tag-row"><span>悬疑犯罪</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="X档案第七季" data-category="scifi" data-year="2021" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-128.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./128.jpg" alt="X档案第七季" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">科幻奇幻</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2021</span>
+            <span>剧集</span>
+            <span class="rating">★ 8.3</span>
+          </div>
+          <h3><a href="./movie/movie-128.html">X档案第七季</a></h3>
+          <p>多年后，穆德与斯卡莉被召回调查与外星病毒相关的新型事件。</p>
+          <div class="tag-row"><span>科幻奇幻</span><span>欧美</span><span>剧集</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="静默如你喧嚣如我" data-category="romance" data-year="2019" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-129.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./129.jpg" alt="静默如你喧嚣如我" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">爱情情感</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2019</span>
+            <span>电影</span>
+            <span class="rating">★ 7.8</span>
+          </div>
+          <h3><a href="./movie/movie-129.html">静默如你喧嚣如我</a></h3>
+          <p>社恐图书管理员与深夜电台主播因误会展开声音交换企划。</p>
+          <div class="tag-row"><span>爱情情感</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="伦敦父女档" data-category="family" data-year="2011" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-130.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./130.jpg" alt="伦敦父女档" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">家庭治愈</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2011</span>
+            <span>电影</span>
+            <span class="rating">★ 7.3</span>
+          </div>
+          <h3><a href="./movie/movie-130.html">伦敦父女档</a></h3>
+          <p>工作狂爸爸被迫带着古灵精怪的女儿出差伦敦，重新学会陪伴。</p>
+          <div class="tag-row"><span>家庭治愈</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="甜美的咬痕" data-category="romance" data-year="2024" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-131.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./131.jpg" alt="甜美的咬痕" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">爱情情感</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2024</span>
+            <span>电影</span>
+            <span class="rating">★ 8.9</span>
+          </div>
+          <h3><a href="./movie/movie-131.html">甜美的咬痕</a></h3>
+          <p>血液恐惧症女孩发现自己爱上的神秘学长以恐惧为食。</p>
+          <div class="tag-row"><span>爱情情感</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="缘尽至此，爱不再言缘尽至此爱不再言" data-category="romance" data-year="2014" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-132.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./132.jpg" alt="缘尽至此，爱不再言缘尽至此爱不再言" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">爱情情感</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2014</span>
+            <span>电影</span>
+            <span class="rating">★ 8.4</span>
+          </div>
+          <h3><a href="./movie/movie-132.html">缘尽至此，爱不再言缘尽至此爱不再言</a></h3>
+          <p>《缘尽至此，爱不再言缘尽至此爱不再言》描写相遇、错过与靠近，在细腻情感里呈现关系的多面质地。</p>
+          <div class="tag-row"><span>爱情情感</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="灼夜难眠" data-category="mystery" data-year="2022" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-133.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./133.jpg" alt="灼夜难眠" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">悬疑犯罪</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2022</span>
+            <span>电影</span>
+            <span class="rating">★ 7.9</span>
+          </div>
+          <h3><a href="./movie/movie-133.html">灼夜难眠</a></h3>
+          <p>失眠刑警调查旧案时，发现线索指向自己丢失的梦境记忆。</p>
+          <div class="tag-row"><span>悬疑犯罪</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="对局" data-category="music" data-year="2006" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-134.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./134.jpg" alt="对局" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">音乐运动</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2006</span>
+            <span>电影</span>
+            <span class="rating">★ 7.4</span>
+          </div>
+          <h3><a href="./movie/movie-134.html">对局</a></h3>
+          <p>两个天才围棋少年在赛场内外展开长达二十年的命运对弈。</p>
+          <div class="tag-row"><span>音乐运动</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="十三密杀令粤语" data-category="mystery" data-year="1999" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-135.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./135.jpg" alt="十三密杀令粤语" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">悬疑犯罪</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1999</span>
+            <span>电影</span>
+            <span class="rating">★ 9.0</span>
+          </div>
+          <h3><a href="./movie/movie-135.html">十三密杀令粤语</a></h3>
+          <p>《十三密杀令粤语》从一桩疑点重重的事件切入，让真相在层层线索中逐渐浮出水面。</p>
+          <div class="tag-row"><span>悬疑犯罪</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="合居情缘" data-category="romance" data-year="2006" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-136.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./136.jpg" alt="合居情缘" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">爱情情感</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2006</span>
+            <span>电影</span>
+            <span class="rating">★ 8.5</span>
+          </div>
+          <h3><a href="./movie/movie-136.html">合居情缘</a></h3>
+          <p>《合居情缘》描写相遇、错过与靠近，在细腻情感里呈现关系的多面质地。</p>
+          <div class="tag-row"><span>爱情情感</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="奇幻沼泽第二季" data-category="drama" data-year="2013" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-137.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./137.jpg" alt="奇幻沼泽第二季" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2013</span>
+            <span>剧集</span>
+            <span class="rating">★ 8.0</span>
+          </div>
+          <h3><a href="./movie/movie-137.html">奇幻沼泽第二季</a></h3>
+          <p>围绕《奇幻沼泽第二季》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>欧美</span><span>剧集</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="解释鸿沟" data-category="drama" data-year="2020" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-138.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./138.jpg" alt="解释鸿沟" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2020</span>
+            <span>电影</span>
+            <span class="rating">★ 7.5</span>
+          </div>
+          <h3><a href="./movie/movie-138.html">解释鸿沟</a></h3>
+          <p>围绕《解释鸿沟》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="少年的你" data-category="youth" data-year="2020" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-139.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./139.jpg" alt="少年的你" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">青春校园</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2020</span>
+            <span>电影</span>
+            <span class="rating">★ 9.1</span>
+          </div>
+          <h3><a href="./movie/movie-139.html">少年的你</a></h3>
+          <p>高考前夕，一场校园意外改变两名少年的命运。</p>
+          <div class="tag-row"><span>青春校园</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="SPEC：天" data-category="scifi" data-year="1998" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-140.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./140.jpg" alt="SPEC：天" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">科幻奇幻</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1998</span>
+            <span>电影</span>
+            <span class="rating">★ 8.6</span>
+          </div>
+          <h3><a href="./movie/movie-140.html">SPEC：天</a></h3>
+          <p>《SPEC：天》以奇幻想象构建全新世界，带出命运、选择与守护的主题。</p>
+          <div class="tag-row"><span>科幻奇幻</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="看不见的苏" data-category="drama" data-year="2005" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-141.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./141.jpg" alt="看不见的苏" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2005</span>
+            <span>电影</span>
+            <span class="rating">★ 8.1</span>
+          </div>
+          <h3><a href="./movie/movie-141.html">看不见的苏</a></h3>
+          <p>围绕《看不见的苏》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="动态漫画·我在末世捡属性" data-category="animation" data-year="2012" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-142.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./142.jpg" alt="动态漫画·我在末世捡属性" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">动画少儿</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2012</span>
+            <span>动画</span>
+            <span class="rating">★ 7.6</span>
+          </div>
+          <h3><a href="./movie/movie-142.html">动态漫画·我在末世捡属性</a></h3>
+          <p>《动态漫画·我在末世捡属性》用明亮想象与冒险情节，讲述友情、勇气和成长。</p>
+          <div class="tag-row"><span>动画少儿</span><span>日韩</span><span>动画</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="顾医生许你爱我99次" data-category="romance" data-year="2019" data-region="亚洲">
+        <a class="movie-poster-link" href="./movie/movie-143.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./143.jpg" alt="顾医生许你爱我99次" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">爱情情感</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2019</span>
+            <span>电影</span>
+            <span class="rating">★ 9.2</span>
+          </div>
+          <h3><a href="./movie/movie-143.html">顾医生许你爱我99次</a></h3>
+          <p>《顾医生许你爱我99次》描写相遇、错过与靠近，在细腻情感里呈现关系的多面质地。</p>
+          <div class="tag-row"><span>爱情情感</span><span>亚洲</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="西装暴徒" data-category="action" data-year="1990" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-144.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./144.jpg" alt="西装暴徒" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">动作冒险</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1990</span>
+            <span>电影</span>
+            <span class="rating">★ 8.7</span>
+          </div>
+          <h3><a href="./movie/movie-144.html">西装暴徒</a></h3>
+          <p>《西装暴徒》以高燃行动线推进故事，主角在危机中完成勇气与信念的试炼。</p>
+          <div class="tag-row"><span>动作冒险</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="闪婚后，我成为全家福星" data-category="scifi" data-year="1997" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-145.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./145.jpg" alt="闪婚后，我成为全家福星" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">科幻奇幻</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1997</span>
+            <span>电影</span>
+            <span class="rating">★ 8.2</span>
+          </div>
+          <h3><a href="./movie/movie-145.html">闪婚后，我成为全家福星</a></h3>
+          <p>《闪婚后，我成为全家福星》以奇幻想象构建全新世界，带出命运、选择与守护的主题。</p>
+          <div class="tag-row"><span>科幻奇幻</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="属于我们的土地" data-category="family" data-year="2004" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-146.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./146.jpg" alt="属于我们的土地" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">家庭治愈</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2004</span>
+            <span>电影</span>
+            <span class="rating">★ 7.7</span>
+          </div>
+          <h3><a href="./movie/movie-146.html">属于我们的土地</a></h3>
+          <p>《属于我们的土地》从家庭日常出发，呈现亲情修复、陪伴成长与普通人的温柔力量。</p>
+          <div class="tag-row"><span>家庭治愈</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="乘风破浪的父亲" data-category="family" data-year="2011" data-region="亚洲">
+        <a class="movie-poster-link" href="./movie/movie-147.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./147.jpg" alt="乘风破浪的父亲" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">家庭治愈</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2011</span>
+            <span>电影</span>
+            <span class="rating">★ 7.2</span>
+          </div>
+          <h3><a href="./movie/movie-147.html">乘风破浪的父亲</a></h3>
+          <p>《乘风破浪的父亲》从家庭日常出发，呈现亲情修复、陪伴成长与普通人的温柔力量。</p>
+          <div class="tag-row"><span>家庭治愈</span><span>亚洲</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="王者天下第六季" data-category="drama" data-year="2018" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-148.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./148.jpg" alt="王者天下第六季" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2018</span>
+            <span>电影</span>
+            <span class="rating">★ 8.8</span>
+          </div>
+          <h3><a href="./movie/movie-148.html">王者天下第六季</a></h3>
+          <p>围绕《王者天下第六季》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="秋寒江南" data-category="drama" data-year="2025" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-149.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./149.jpg" alt="秋寒江南" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2025</span>
+            <span>电影</span>
+            <span class="rating">★ 8.3</span>
+          </div>
+          <h3><a href="./movie/movie-149.html">秋寒江南</a></h3>
+          <p>围绕《秋寒江南》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="猪猪侠大电影·恐龙日记" data-category="thriller" data-year="1996" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-150.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./150.jpg" alt="猪猪侠大电影·恐龙日记" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">恐怖惊悚</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1996</span>
+            <span>电影</span>
+            <span class="rating">★ 7.8</span>
+          </div>
+          <h3><a href="./movie/movie-150.html">猪猪侠大电影·恐龙日记</a></h3>
+          <p>《猪猪侠大电影·恐龙日记》营造紧张氛围，让角色在未知威胁与心理压力中寻找出路。</p>
+          <div class="tag-row"><span>恐怖惊悚</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="这个高中没有鬼3" data-category="thriller" data-year="2003" data-region="亚洲">
+        <a class="movie-poster-link" href="./movie/movie-151.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./1.jpg" alt="这个高中没有鬼3" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">恐怖惊悚</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2003</span>
+            <span>电影</span>
+            <span class="rating">★ 7.3</span>
+          </div>
+          <h3><a href="./movie/movie-151.html">这个高中没有鬼3</a></h3>
+          <p>《这个高中没有鬼3》营造紧张氛围，让角色在未知威胁与心理压力中寻找出路。</p>
+          <div class="tag-row"><span>恐怖惊悚</span><span>亚洲</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="我当勾魂使者那些年" data-category="scifi" data-year="2010" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-152.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./2.jpg" alt="我当勾魂使者那些年" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">科幻奇幻</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2010</span>
+            <span>电影</span>
+            <span class="rating">★ 8.9</span>
+          </div>
+          <h3><a href="./movie/movie-152.html">我当勾魂使者那些年</a></h3>
+          <p>《我当勾魂使者那些年》以奇幻想象构建全新世界，带出命运、选择与守护的主题。</p>
+          <div class="tag-row"><span>科幻奇幻</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="家有活宝" data-category="comedy" data-year="2017" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-153.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./3.jpg" alt="家有活宝" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">喜剧生活</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2017</span>
+            <span>电影</span>
+            <span class="rating">★ 8.4</span>
+          </div>
+          <h3><a href="./movie/movie-153.html">家有活宝</a></h3>
+          <p>《家有活宝》用轻快节奏串起生活误会与温暖反转，带来轻松又有人情味的观感。</p>
+          <div class="tag-row"><span>喜剧生活</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="另一个故乡" data-category="family" data-year="2024" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-154.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./4.jpg" alt="另一个故乡" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">家庭治愈</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2024</span>
+            <span>电影</span>
+            <span class="rating">★ 7.9</span>
+          </div>
+          <h3><a href="./movie/movie-154.html">另一个故乡</a></h3>
+          <p>《另一个故乡》从家庭日常出发，呈现亲情修复、陪伴成长与普通人的温柔力量。</p>
+          <div class="tag-row"><span>家庭治愈</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="理查德·朱维尔的哀歌" data-category="music" data-year="1995" data-region="亚洲">
+        <a class="movie-poster-link" href="./movie/movie-155.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./5.jpg" alt="理查德·朱维尔的哀歌" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">音乐运动</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1995</span>
+            <span>电影</span>
+            <span class="rating">★ 7.4</span>
+          </div>
+          <h3><a href="./movie/movie-155.html">理查德·朱维尔的哀歌</a></h3>
+          <p>《理查德·朱维尔的哀歌》以舞台、竞技或音乐为核心，展现热爱带来的热血与坚持。</p>
+          <div class="tag-row"><span>音乐运动</span><span>亚洲</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="龙与虎" data-category="action" data-year="2002" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-156.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./6.jpg" alt="龙与虎" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">动作冒险</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2002</span>
+            <span>电影</span>
+            <span class="rating">★ 9.0</span>
+          </div>
+          <h3><a href="./movie/movie-156.html">龙与虎</a></h3>
+          <p>《龙与虎》以高燃行动线推进故事，主角在危机中完成勇气与信念的试炼。</p>
+          <div class="tag-row"><span>动作冒险</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="神探坤潘3" data-category="scifi" data-year="2009" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-157.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./7.jpg" alt="神探坤潘3" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">科幻奇幻</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2009</span>
+            <span>电影</span>
+            <span class="rating">★ 8.5</span>
+          </div>
+          <h3><a href="./movie/movie-157.html">神探坤潘3</a></h3>
+          <p>《神探坤潘3》以奇幻想象构建全新世界，带出命运、选择与守护的主题。</p>
+          <div class="tag-row"><span>科幻奇幻</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="网红的疯狂世界" data-category="drama" data-year="2016" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-158.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./8.jpg" alt="网红的疯狂世界" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2016</span>
+            <span>电影</span>
+            <span class="rating">★ 8.0</span>
+          </div>
+          <h3><a href="./movie/movie-158.html">网红的疯狂世界</a></h3>
+          <p>围绕《网红的疯狂世界》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="超级宝贝JOJO第二季" data-category="family" data-year="2023" data-region="亚洲">
+        <a class="movie-poster-link" href="./movie/movie-159.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./9.jpg" alt="超级宝贝JOJO第二季" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">家庭治愈</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2023</span>
+            <span>剧集</span>
+            <span class="rating">★ 7.5</span>
+          </div>
+          <h3><a href="./movie/movie-159.html">超级宝贝JOJO第二季</a></h3>
+          <p>《超级宝贝JOJO第二季》从家庭日常出发，呈现亲情修复、陪伴成长与普通人的温柔力量。</p>
+          <div class="tag-row"><span>家庭治愈</span><span>亚洲</span><span>剧集</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="大变局之梦回甲午" data-category="scifi" data-year="1994" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-160.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./10.jpg" alt="大变局之梦回甲午" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">科幻奇幻</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1994</span>
+            <span>电影</span>
+            <span class="rating">★ 9.1</span>
+          </div>
+          <h3><a href="./movie/movie-160.html">大变局之梦回甲午</a></h3>
+          <p>《大变局之梦回甲午》以奇幻想象构建全新世界，带出命运、选择与守护的主题。</p>
+          <div class="tag-row"><span>科幻奇幻</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="爱你所以离开你" data-category="romance" data-year="2001" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-161.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./11.jpg" alt="爱你所以离开你" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">爱情情感</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2001</span>
+            <span>电影</span>
+            <span class="rating">★ 8.6</span>
+          </div>
+          <h3><a href="./movie/movie-161.html">爱你所以离开你</a></h3>
+          <p>《爱你所以离开你》描写相遇、错过与靠近，在细腻情感里呈现关系的多面质地。</p>
+          <div class="tag-row"><span>爱情情感</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="冰柜里的小人国" data-category="family" data-year="2008" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-162.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./12.jpg" alt="冰柜里的小人国" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">家庭治愈</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2008</span>
+            <span>电影</span>
+            <span class="rating">★ 8.1</span>
+          </div>
+          <h3><a href="./movie/movie-162.html">冰柜里的小人国</a></h3>
+          <p>《冰柜里的小人国》从家庭日常出发，呈现亲情修复、陪伴成长与普通人的温柔力量。</p>
+          <div class="tag-row"><span>家庭治愈</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="来自普莱恩维尔的女孩" data-category="documentary" data-year="2015" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-163.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./13.jpg" alt="来自普莱恩维尔的女孩" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">纪录人文</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2015</span>
+            <span>电影</span>
+            <span class="rating">★ 7.6</span>
+          </div>
+          <h3><a href="./movie/movie-163.html">来自普莱恩维尔的女孩</a></h3>
+          <p>《来自普莱恩维尔的女孩》以观察视角梳理真实人物与时代细节，呈现值得回望的故事。</p>
+          <div class="tag-row"><span>纪录人文</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="山村无敌战龙" data-category="action" data-year="2022" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-164.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./14.jpg" alt="山村无敌战龙" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">动作冒险</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2022</span>
+            <span>电影</span>
+            <span class="rating">★ 9.2</span>
+          </div>
+          <h3><a href="./movie/movie-164.html">山村无敌战龙</a></h3>
+          <p>《山村无敌战龙》以高燃行动线推进故事，主角在危机中完成勇气与信念的试炼。</p>
+          <div class="tag-row"><span>动作冒险</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="花戒指" data-category="romance" data-year="1993" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-165.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./15.jpg" alt="花戒指" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">爱情情感</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1993</span>
+            <span>电影</span>
+            <span class="rating">★ 8.7</span>
+          </div>
+          <h3><a href="./movie/movie-165.html">花戒指</a></h3>
+          <p>《花戒指》描写相遇、错过与靠近，在细腻情感里呈现关系的多面质地。</p>
+          <div class="tag-row"><span>爱情情感</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="身患绝症后我被逐出家门" data-category="family" data-year="2000" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-166.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./16.jpg" alt="身患绝症后我被逐出家门" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">家庭治愈</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2000</span>
+            <span>电影</span>
+            <span class="rating">★ 8.2</span>
+          </div>
+          <h3><a href="./movie/movie-166.html">身患绝症后我被逐出家门</a></h3>
+          <p>《身患绝症后我被逐出家门》从家庭日常出发，呈现亲情修复、陪伴成长与普通人的温柔力量。</p>
+          <div class="tag-row"><span>家庭治愈</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="异邦警察 电影版" data-category="mystery" data-year="2007" data-region="亚洲">
+        <a class="movie-poster-link" href="./movie/movie-167.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./17.jpg" alt="异邦警察 电影版" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">悬疑犯罪</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2007</span>
+            <span>电影</span>
+            <span class="rating">★ 7.7</span>
+          </div>
+          <h3><a href="./movie/movie-167.html">异邦警察 电影版</a></h3>
+          <p>《异邦警察 电影版》从一桩疑点重重的事件切入，让真相在层层线索中逐渐浮出水面。</p>
+          <div class="tag-row"><span>悬疑犯罪</span><span>亚洲</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="我有一诗镇山河" data-category="scifi" data-year="2014" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-168.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./18.jpg" alt="我有一诗镇山河" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">科幻奇幻</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2014</span>
+            <span>电影</span>
+            <span class="rating">★ 7.2</span>
+          </div>
+          <h3><a href="./movie/movie-168.html">我有一诗镇山河</a></h3>
+          <p>《我有一诗镇山河》以奇幻想象构建全新世界，带出命运、选择与守护的主题。</p>
+          <div class="tag-row"><span>科幻奇幻</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="磁石男" data-category="scifi" data-year="2021" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-169.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./19.jpg" alt="磁石男" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">科幻奇幻</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2021</span>
+            <span>电影</span>
+            <span class="rating">★ 8.8</span>
+          </div>
+          <h3><a href="./movie/movie-169.html">磁石男</a></h3>
+          <p>《磁石男》以奇幻想象构建全新世界，带出命运、选择与守护的主题。</p>
+          <div class="tag-row"><span>科幻奇幻</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="园区潜行" data-category="drama" data-year="1992" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-170.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./20.jpg" alt="园区潜行" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1992</span>
+            <span>电影</span>
+            <span class="rating">★ 8.3</span>
+          </div>
+          <h3><a href="./movie/movie-170.html">园区潜行</a></h3>
+          <p>围绕《园区潜行》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="德云社2025" data-category="comedy" data-year="1999" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-171.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./21.jpg" alt="德云社2025" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">喜剧生活</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1999</span>
+            <span>电影</span>
+            <span class="rating">★ 7.8</span>
+          </div>
+          <h3><a href="./movie/movie-171.html">德云社2025</a></h3>
+          <p>《德云社2025》用轻快节奏串起生活误会与温暖反转，带来轻松又有人情味的观感。</p>
+          <div class="tag-row"><span>喜剧生活</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="珍奇之物" data-category="drama" data-year="2006" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-172.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./22.jpg" alt="珍奇之物" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2006</span>
+            <span>电影</span>
+            <span class="rating">★ 7.3</span>
+          </div>
+          <h3><a href="./movie/movie-172.html">珍奇之物</a></h3>
+          <p>围绕《珍奇之物》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="忘情阔少爷国语" data-category="romance" data-year="2013" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-173.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./23.jpg" alt="忘情阔少爷国语" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">爱情情感</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2013</span>
+            <span>电影</span>
+            <span class="rating">★ 8.9</span>
+          </div>
+          <h3><a href="./movie/movie-173.html">忘情阔少爷国语</a></h3>
+          <p>《忘情阔少爷国语》描写相遇、错过与靠近，在细腻情感里呈现关系的多面质地。</p>
+          <div class="tag-row"><span>爱情情感</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="天龙八部1982国语" data-category="action" data-year="2020" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-174.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./24.jpg" alt="天龙八部1982国语" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">动作冒险</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2020</span>
+            <span>电影</span>
+            <span class="rating">★ 8.4</span>
+          </div>
+          <h3><a href="./movie/movie-174.html">天龙八部1982国语</a></h3>
+          <p>《天龙八部1982国语》以高燃行动线推进故事，主角在危机中完成勇气与信念的试炼。</p>
+          <div class="tag-row"><span>动作冒险</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="惊天日记" data-category="thriller" data-year="1991" data-region="亚洲">
+        <a class="movie-poster-link" href="./movie/movie-175.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./25.jpg" alt="惊天日记" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">恐怖惊悚</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1991</span>
+            <span>电影</span>
+            <span class="rating">★ 7.9</span>
+          </div>
+          <h3><a href="./movie/movie-175.html">惊天日记</a></h3>
+          <p>《惊天日记》营造紧张氛围，让角色在未知威胁与心理压力中寻找出路。</p>
+          <div class="tag-row"><span>恐怖惊悚</span><span>亚洲</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="拓荒者的足迹" data-category="history" data-year="1998" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-176.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./26.jpg" alt="拓荒者的足迹" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">历史战争</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1998</span>
+            <span>电影</span>
+            <span class="rating">★ 7.4</span>
+          </div>
+          <h3><a href="./movie/movie-176.html">拓荒者的足迹</a></h3>
+          <p>《拓荒者的足迹》把个人命运放入历史风云，以厚重叙事展现时代的回声。</p>
+          <div class="tag-row"><span>历史战争</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="恐龙·怪鸟的传说" data-category="thriller" data-year="2005" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-177.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./27.jpg" alt="恐龙·怪鸟的传说" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">恐怖惊悚</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2005</span>
+            <span>电影</span>
+            <span class="rating">★ 9.0</span>
+          </div>
+          <h3><a href="./movie/movie-177.html">恐龙·怪鸟的传说</a></h3>
+          <p>《恐龙·怪鸟的传说》营造紧张氛围，让角色在未知威胁与心理压力中寻找出路。</p>
+          <div class="tag-row"><span>恐怖惊悚</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="骄傲的少年" data-category="youth" data-year="2012" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-178.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./28.jpg" alt="骄傲的少年" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">青春校园</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2012</span>
+            <span>电影</span>
+            <span class="rating">★ 8.5</span>
+          </div>
+          <h3><a href="./movie/movie-178.html">骄傲的少年</a></h3>
+          <p>《骄傲的少年》聚焦青春选择和成长阵痛，记录少年人在变化中寻找方向。</p>
+          <div class="tag-row"><span>青春校园</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="铁甲钢拳" data-category="drama" data-year="2019" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-179.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./29.jpg" alt="铁甲钢拳" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2019</span>
+            <span>电影</span>
+            <span class="rating">★ 8.0</span>
+          </div>
+          <h3><a href="./movie/movie-179.html">铁甲钢拳</a></h3>
+          <p>围绕《铁甲钢拳》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="旭东" data-category="family" data-year="1990" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-180.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./30.jpg" alt="旭东" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">家庭治愈</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1990</span>
+            <span>电影</span>
+            <span class="rating">★ 7.5</span>
+          </div>
+          <h3><a href="./movie/movie-180.html">旭东</a></h3>
+          <p>《旭东》从家庭日常出发，呈现亲情修复、陪伴成长与普通人的温柔力量。</p>
+          <div class="tag-row"><span>家庭治愈</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="小屁孩日记2" data-category="family" data-year="1997" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-181.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./31.jpg" alt="小屁孩日记2" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">家庭治愈</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1997</span>
+            <span>电影</span>
+            <span class="rating">★ 9.1</span>
+          </div>
+          <h3><a href="./movie/movie-181.html">小屁孩日记2</a></h3>
+          <p>《小屁孩日记2》从家庭日常出发，呈现亲情修复、陪伴成长与普通人的温柔力量。</p>
+          <div class="tag-row"><span>家庭治愈</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="舌尖上的心跳" data-category="romance" data-year="2004" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-182.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./32.jpg" alt="舌尖上的心跳" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">爱情情感</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2004</span>
+            <span>电影</span>
+            <span class="rating">★ 8.6</span>
+          </div>
+          <h3><a href="./movie/movie-182.html">舌尖上的心跳</a></h3>
+          <p>《舌尖上的心跳》描写相遇、错过与靠近，在细腻情感里呈现关系的多面质地。</p>
+          <div class="tag-row"><span>爱情情感</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="老婆在原谅我一次" data-category="drama" data-year="2011" data-region="亚洲">
+        <a class="movie-poster-link" href="./movie/movie-183.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./33.jpg" alt="老婆在原谅我一次" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2011</span>
+            <span>电影</span>
+            <span class="rating">★ 8.1</span>
+          </div>
+          <h3><a href="./movie/movie-183.html">老婆在原谅我一次</a></h3>
+          <p>围绕《老婆在原谅我一次》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>亚洲</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="致我们暖暖的小时光" data-category="drama" data-year="2018" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-184.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./34.jpg" alt="致我们暖暖的小时光" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2018</span>
+            <span>电影</span>
+            <span class="rating">★ 7.6</span>
+          </div>
+          <h3><a href="./movie/movie-184.html">致我们暖暖的小时光</a></h3>
+          <p>围绕《致我们暖暖的小时光》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="蹭饭吧老表" data-category="comedy" data-year="2025" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-185.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./35.jpg" alt="蹭饭吧老表" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">喜剧生活</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2025</span>
+            <span>电影</span>
+            <span class="rating">★ 9.2</span>
+          </div>
+          <h3><a href="./movie/movie-185.html">蹭饭吧老表</a></h3>
+          <p>《蹭饭吧老表》用轻快节奏串起生活误会与温暖反转，带来轻松又有人情味的观感。</p>
+          <div class="tag-row"><span>喜剧生活</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="会说话的头" data-category="drama" data-year="1996" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-186.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./36.jpg" alt="会说话的头" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1996</span>
+            <span>电影</span>
+            <span class="rating">★ 8.7</span>
+          </div>
+          <h3><a href="./movie/movie-186.html">会说话的头</a></h3>
+          <p>围绕《会说话的头》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="赤脚黎明" data-category="drama" data-year="2003" data-region="亚洲">
+        <a class="movie-poster-link" href="./movie/movie-187.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./37.jpg" alt="赤脚黎明" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">剧情佳作</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2003</span>
+            <span>电影</span>
+            <span class="rating">★ 8.2</span>
+          </div>
+          <h3><a href="./movie/movie-187.html">赤脚黎明</a></h3>
+          <p>围绕《赤脚黎明》展开的人物群像，在时代与情感的交汇处写下各自选择。</p>
+          <div class="tag-row"><span>剧情佳作</span><span>亚洲</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="贪恋你的盛夏" data-category="romance" data-year="2010" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-188.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./38.jpg" alt="贪恋你的盛夏" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">爱情情感</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2010</span>
+            <span>电影</span>
+            <span class="rating">★ 7.7</span>
+          </div>
+          <h3><a href="./movie/movie-188.html">贪恋你的盛夏</a></h3>
+          <p>《贪恋你的盛夏》描写相遇、错过与靠近，在细腻情感里呈现关系的多面质地。</p>
+          <div class="tag-row"><span>爱情情感</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="水中刀" data-category="mystery" data-year="2017" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-189.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./39.jpg" alt="水中刀" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">悬疑犯罪</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2017</span>
+            <span>电影</span>
+            <span class="rating">★ 7.2</span>
+          </div>
+          <h3><a href="./movie/movie-189.html">水中刀</a></h3>
+          <p>《水中刀》从一桩疑点重重的事件切入，让真相在层层线索中逐渐浮出水面。</p>
+          <div class="tag-row"><span>悬疑犯罪</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="特工家族" data-category="family" data-year="2024" data-region="日韩">
+        <a class="movie-poster-link" href="./movie/movie-190.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./40.jpg" alt="特工家族" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">家庭治愈</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2024</span>
+            <span>电影</span>
+            <span class="rating">★ 8.8</span>
+          </div>
+          <h3><a href="./movie/movie-190.html">特工家族</a></h3>
+          <p>《特工家族》从家庭日常出发，呈现亲情修复、陪伴成长与普通人的温柔力量。</p>
+          <div class="tag-row"><span>家庭治愈</span><span>日韩</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="月落星琛时" data-category="romance" data-year="1995" data-region="亚洲">
+        <a class="movie-poster-link" href="./movie/movie-191.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./41.jpg" alt="月落星琛时" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">爱情情感</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1995</span>
+            <span>电影</span>
+            <span class="rating">★ 8.3</span>
+          </div>
+          <h3><a href="./movie/movie-191.html">月落星琛时</a></h3>
+          <p>《月落星琛时》描写相遇、错过与靠近，在细腻情感里呈现关系的多面质地。</p>
+          <div class="tag-row"><span>爱情情感</span><span>亚洲</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="食神粤语" data-category="comedy" data-year="1996" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-192.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./42.jpg" alt="食神粤语" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">喜剧生活</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1996</span>
+            <span>电影</span>
+            <span class="rating">★ 7.8</span>
+          </div>
+          <h3><a href="./movie/movie-192.html">食神粤语</a></h3>
+          <p>嚣张食神跌落神坛后在街头巷尾领悟美食真谛，卷土重来。</p>
+          <div class="tag-row"><span>喜剧生活</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="恐怖游轮" data-category="thriller" data-year="2009" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-193.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./43.jpg" alt="恐怖游轮" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">恐怖惊悚</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2009</span>
+            <span>电影</span>
+            <span class="rating">★ 7.3</span>
+          </div>
+          <h3><a href="./movie/movie-193.html">恐怖游轮</a></h3>
+          <p>单亲母亲与朋友出海遭遇风暴，登上神秘空船后陷入循环追杀。</p>
+          <div class="tag-row"><span>恐怖惊悚</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="江湖恋曲粤语" data-category="romance" data-year="2016" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-194.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./44.jpg" alt="江湖恋曲粤语" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">爱情情感</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2016</span>
+            <span>电影</span>
+            <span class="rating">★ 8.9</span>
+          </div>
+          <h3><a href="./movie/movie-194.html">江湖恋曲粤语</a></h3>
+          <p>《江湖恋曲粤语》描写相遇、错过与靠近，在细腻情感里呈现关系的多面质地。</p>
+          <div class="tag-row"><span>爱情情感</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="幽暗哈瓦那" data-category="thriller" data-year="2023" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-195.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./45.jpg" alt="幽暗哈瓦那" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">恐怖惊悚</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2023</span>
+            <span>电影</span>
+            <span class="rating">★ 8.4</span>
+          </div>
+          <h3><a href="./movie/movie-195.html">幽暗哈瓦那</a></h3>
+          <p>《幽暗哈瓦那》营造紧张氛围，让角色在未知威胁与心理压力中寻找出路。</p>
+          <div class="tag-row"><span>恐怖惊悚</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="十三号星期五9" data-category="scifi" data-year="1994" data-region="国产">
+        <a class="movie-poster-link" href="./movie/movie-196.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./46.jpg" alt="十三号星期五9" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">科幻奇幻</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>1994</span>
+            <span>电影</span>
+            <span class="rating">★ 7.9</span>
+          </div>
+          <h3><a href="./movie/movie-196.html">十三号星期五9</a></h3>
+          <p>《十三号星期五9》以奇幻想象构建全新世界，带出命运、选择与守护的主题。</p>
+          <div class="tag-row"><span>科幻奇幻</span><span>国产</span><span>电影</span></div>
+        </div>
+      </article>
+      <article class="movie-card" data-title="裁断分离之罪恶剪刀" data-category="mystery" data-year="2001" data-region="欧美">
+        <a class="movie-poster-link" href="./movie/movie-197.html">
+          <div class="movie-cover">
+            <img class="cover-img" src="./47.jpg" alt="裁断分离之罪恶剪刀" loading="lazy" onerror="this.removeAttribute('src');this.classList.add('is-empty')">
+            <span class="cover-badge">悬疑犯罪</span>
+          </div>
+        </a>
+        <div class="movie-card-body">
+          <div class="movie-card-meta">
+            <span>2001</span>
+            <span>电影</span>
+            <span class="rating">★ 7.4</span>
+          </div>
+          <h3><a href="./movie/movie-197.html">裁断分离之罪恶剪刀</a></h3>
+          <p>《裁断分离之罪恶剪刀》从一桩疑点重重的事件切入，让真相在层层线索中逐渐浮出水面。</p>
+          <div class="tag-row"><span>悬疑犯罪</span><span>欧美</span><span>电影</span></div>
+        </div>
+      </article>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>热门影视片库</strong>
+        <p>电影、电视剧与视频内容整理，精选内容持续更新。</p>
+      </div>
+      <div class="footer-links">
+        <a href="./movies/page-1.html">片库</a>
+        <a href="./categories.html">分类</a>
+        <a href="./top.html">榜单</a>
+        <a href="./sitemap.xml">地图</a>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/site.js"></script>
+
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
